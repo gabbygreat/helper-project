@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'module/cathedral_door/main.dart';
 import 'module/change_state/main.dart';
+import 'module/curvy_card/main.dart';
 import 'module/custom_tabbar/main.dart';
 import 'module/glowing_arc/main.dart';
 import 'module/gradient_circle/main.dart';
@@ -90,6 +91,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Custom Tabbar'),
             onTap: () => goToScreen(
               const CustomTabbar(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Curvy Card'),
+            onTap: () => goToScreen(
+              const CurvyCard(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
