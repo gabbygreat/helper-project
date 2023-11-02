@@ -1,0 +1,3028 @@
+[
+    {
+        "question": "Agụmagụ bụ ...",
+        "options": [
+            "ihe ndị ahụ echeputara echeputa gbasara ndụ",
+            "Ihe nile edere n'akwụkwọ",
+            "Ihe e kwuru n'ọnụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Nwadike (1990:11) kọwara agụmagụ n'ụzọ abụọ ...",
+        "options": [
+            "Agụmagụ ederede na Agụmagụ edeghị ede",
+            "Agụmagụ ugbua na agụmagụ odinala",
+            "Agụmagụ onwe na agụmagụ obodo"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Agụmagụ izugbe bụkwa ...",
+        "options": [
+            "Agụmagụ ugbua",
+            "Agụmagụ mmụta",
+            "Agụmagụ Ochie"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị a bụ ụdị agụmagụ enwere n'ala Igbo",
+        "options": [
+            "Agụmagụ ekwurunọọnụ na agụmagụ ederede",
+            "Agụmagụ izugbe na agụmagụ nka",
+            "Agụmagụ mkpọkịtị na agụmagụ ịgba"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a bụ ndiiche dị n'etiti agụmagụ odinala na agụmagụ ederede",
+        "options": [
+            "A na-enwe ebe na oge pụrụ iche eji eziputa agụmagụ Odinala mana abịa n'agụmagụ ederede, ọgụụ nwere ike ịnọ ebe masiri ya gụọ ya oge obula ọ chọrọ.",
+            "Agụmagụ odinala bu agụmagụ dị n'ala mana agụmagụ ederede bu agụmagụ adịghị n'ala.",
+            "Agụmagụ odinala abụghị ezigbo agụmagụ mana agụmagụ ederede bụ ezigbo agụmagụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Njirimara agụmagụ gụnyere ndị a ..",
+        "options": [
+            "Ekere uche, nzipụta ndụ, ngalaba, ejije",
+            "Nhazi, agụmagụ, nzipụta ndụ, akụkọ",
+            "Abụ, akụkọ, ejije, nghọta"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abughi uru agụmagụ",
+        "options": [
+            "Agụmagụ na-enyere anyị aka echekwaba ụzọ ndụ na omenala anyị",
+            "Agụmagụ bụ ihe Chukwu nyere anyị",
+            "Agụmagụ na-eme ka uche anyị dị nkọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara agụmagụ",
+        "options": [
+            "Nhazi, nzipụta ndụ",
+            "Ekere uche, nkeasụsụ",
+            "Ngalaba, Ụdị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ ụdị agụmagụ dị ọkpụ?",
+        "options": [
+            "Agụmagụ Izugbe",
+            "Agụmagụ Obodo",
+            "Agụmagụ Ọdịnala"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Nwadike kọwara agụmagụ ọdịnala dịka nke",
+        "options": [
+            "Anaghị anwụ anwụ",
+            "si n'aka fere n'aka, eji ọṅụ ekwu",
+            "Abụghị ezigbo agụmagụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Agụmagụ Ọdịnala bụ agụmagụ nke",
+        "options": [
+            "Kacha agụmagụ nile di ochie",
+            "Dị n'ala",
+            "Edeghị ede mgbe echeputara ya"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedu nke abụghị njirimara agụmagụ ọdịnala",
+        "options": [
+            "Ọ na-adị nkenke",
+            "Ọ si n'aka fere n'aka",
+            "Onweghị onye nwe ya"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abughi uru agụmagụ ọdịnala",
+        "options": [
+            "A na-eji yaa agba ihe ọjọọ n'anwụ",
+            "Eji ya echekwaba asụsụ na omenala ndi Igbo",
+            "Eji ya anọrị oge"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị a bụ ngalaba agụmagụ ọdịnala",
+        "options": [
+            "Abụ, akụkọ, echiche",
+            "Ejije, abụ, akụkọ",
+            "Abụ, mwute, akụkọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mmụọ, mmadụ na anụmanụ na-emekọrịta na",
+        "options": [
+            "Agụmagụ ọdịnala",
+            "Akụkọ mmụọ na mmadụ",
+            "Akụkọ ifo"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Akụkọ mmalite bu akụkọ",
+        "options": [
+            "Na-eziputa etu ihe ụfọdụ si bido",
+            "Na-egosi ihe mara",
+            "Dị ezigbo mma"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Akụkọ eji echeta ihe dị iche iche ndị Odogwu",
+        "options": [
+            "Akụkọ mbido",
+            "Akụkọ Ifo",
+            "Akụkọ ndị odogwu"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị akụkọ eji egwu na ngwa egwu akọ bụ",
+        "options": [
+            "Akụkọnegwu",
+            "Akụkọ-egwu",
+            "Akụkọ egwu na ngwa egwu"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ukabuilu",
+        "options": [
+            "Akụkọ a na-akọ n'ubochi ụka",
+            "Ịlụ a na-atụ ụbọchị ụka",
+            "Akụkọ buru ibu"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Nkenuudi akụkọ Odinala Igbo gụnyere",
+        "options": [
+            "Akụkọ Ifo, akụkọ mmalite, akụkọ ochie",
+            "Akụkọ Ifo, akụkọnegwu, akụkọ mbido",
+            "Akụkọ ochie, akụkọ buru ibu, akụkọ echiche"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "...na-eziputakari ya n'ụdị mmeghari ahụ",
+        "options": [
+            "Mgba",
+            "Egwuregwu",
+            "Ejije"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara ejije ọdịnala",
+        "options": [
+            "Ọ na-adị n'ụdị mkparitauka",
+            "Enwere oge pụrụ iche eji eme ya",
+            "Ọ na-egosi ihe dị ochie"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Nkenuudi ejije ọdịnala bu ndị a",
+        "options": [
+            "Ejije mmọnwu, ejije agha, ejije agha, ejije ụmụaka",
+            "Ejije ọganihu, ejije udo, ejije agha, ejije ntọala",
+            "Ejije ofufe, ejije ndị ntorobịa, ejije Chukwu, ejije obodo"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ejije a na-egosi na ndị dị ndụ na ndị nwụrụ anwụ na-emekọrịta",
+        "options": [
+            "Ejije mmekọrịta",
+            "Ejije mmụọ ma mmadụ",
+            "Ejije ndị dị ndụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ejije agha bụ ụdị ejije eji egosi",
+        "options": [
+            "Onye ka ike",
+            "Ihe mere mgbe a na-alụ agha",
+            "Ndị na-aga agha"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ejije a ka umụaka na-ejije ndị okenye n'ihe niile ha na-eme",
+        "options": [
+            "Ejije ndị okenye",
+            "Ejije ụmụaka",
+            "Ejije ọrụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ejije ntọala bụ",
+        "options": [
+            "Ejije ala anyị",
+            "Ejije ihe mere eme",
+            "Ejije ndị ọzọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị abụ ọdịnala gụnyere",
+        "options": [
+            "Uri, abụ ifo, abụ nwa, abụ nkọcha",
+            "Abụ Chukwu, abụ mmadụ, abụ akwarịrị, abụ ekere",
+            "Abụ ụdọ, abụ nkuzi, abụ otito, abụ nwa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ọmụmatụ uri/egwu bu ndị a",
+        "options": [
+            "Egwu nri, egwu umunwanyi, egwu obi aṅurị",
+            "Uri egwu, egwu Chukwu,  egwu ndi okenye, egwu mmemmé",
+            "Egwu ọgbụgba, egwu Chukwu, egwu mmemme"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Abụ na-abata n'akụkọ ifo bụ",
+        "options": [
+            "Abụ akụkọ ifo",
+            "Abụ ifo",
+            "Egwu akụkọ ifo"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Abụ mkpoku bụ",
+        "options": [
+            "Abụ eji akpọ ndị mmadụ na-agafe",
+            "Abụ eji akpọ nwanne mmadụ",
+            "eji akpoku Chineke na ihe ndị ọzọ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ụdị abụ a ka eji eto Chineke, mmadụ maọbu ihe nkịtị otito",
+        "options": [
+            "Abụ otito",
+            "Abụ Chukwu",
+            "Abụ eto"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ngalaba agụmagụ ọdịnala dị",
+        "options": [
+            "Abụọ",
+            "Iteghete",
+            "Anọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị abụ eji akatọ akparamagwa ọjọọ, mpi na arụrala dị iche iche n'obodo",
+        "options": [
+            "Abụ nkatọ",
+            "Abụ nkọcha",
+            "Abụ nkuzi"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Nkenuudi akụkọ ọdịnala dị",
+        "options": [
+            "Ise",
+            "Isii",
+            "Asatọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Abụ nkọcha ka enwere ike ịkpọ",
+        "options": [
+            "Abụ nkatọ",
+            "Abụ ikpe",
+            "Abụ ịkọ ọnụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Abụ eji ebu agha nke na-akwalite mmụọ ndị na-agba agha",
+        "options": [
+            "Abụ nkwalite",
+            "Abụ ike",
+            "Abụ agha"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Abụ ngụgọ bụ",
+        "options": [
+            "Abụ eji agba afa",
+            "Abụ eji agụgọ ụmụaka",
+            "Abụ eji ezi ozi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Nkenuudi ejije ọdịnala dị",
+        "options": [
+            "Asaa",
+            "Anọ",
+            "Ise"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Abụ akwarịrị bu ụdị abụ a na-abụ",
+        "options": [
+            "Mgbe mmadụ nwụrụ",
+            "Mgbe ihe nwute maọbu ọdachi dakwasara mmadụ",
+            "Mgbe akwa mmadụ dọkara"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Abụ eji akuziri mmadụ amamihe n'ụzọ ndụ",
+        "options": [
+            "Abụ nzịkọ",
+            "Abụ amamihe",
+            "Abụ mmụta"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Abụ ofufe bụ",
+        "options": [
+            "Abụ eji efe ndị ichie",
+            "Abụ eji efe ndị nna nna anyị",
+            "Abụ eji efufe aka"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị abụ a na-etinye uche n'ihe dị iche iche Chukwu kere",
+        "options": [
+            "Abụ Chukwu",
+            "Abụ Chineke",
+            "Abụ ihe okike"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Abụ ntọaja bụkwa",
+        "options": [
+            "Abụ aja",
+            "Abụ ụtọ",
+            "Abụ ofufe"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Abụ a na-abukarị mgbe a na-arụ ọrụ n'ugbo, eji ya akwalite mmụọ ndị na-arụ ọrụ",
+        "options": [
+            "Abụ ọrụ",
+            "Abụ nkwalite",
+            "Abụ ndị na-arụ ọrụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Agụmagụ ederede bụkwa",
+        "options": [
+            "Agụmagụ anyị",
+            "Agụmagụ akwụkwọ",
+            "Agụmagụ izugbe"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a bụ njirimara agụmagụ ederede",
+        "options": [
+            "Ọ bụ ezigbo agụmagụ",
+            "Enwere ike ịgụ ya mgbe ọbụla",
+            "O buru ibu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abughi njirimara agụmagụ ederede",
+        "options": [
+            "Ọ bụ ezigbo agụmagụ",
+            "A ga-ejiri asụsụ nka deputa ya",
+            "Ọ ga-enweriri isiokwu na ihe mmụta"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Uru agụmagụ ederede bu",
+        "options": [
+            "Ọ na-adị mma",
+            "Ọ buru ibu",
+            "Ọ dịghị mma"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị uru agụmagụ ederede",
+        "options": [
+            "Ọ dịghị mma",
+            "A na-esite na ya akuzi ihe",
+            "Ọ bụ otu ụzọ asụsụ si eto"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ngalaba agụmagụ ederede dị",
+        "options": [
+            "Ise",
+            "Atọ",
+            "Asatọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Iduaazị ka a na-akpọ",
+        "options": [
+            "Agụmagụ ederede",
+            "Agụmagụ izugbe",
+            "Akwụkwọ akụkọ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ụdị Iduuazị ederede enwere dịka Nwadike siri kọwaa bu ndị a",
+        "options": [
+            "Iduuazị nke onye, iduuazị akụkọ ifo, iduuazị mkpọchi",
+            "Iduuazị egwu, iduuazị ihe omimi, iduuazị ncheta",
+            "Iduuazị ngalaba, iduuazị ọyị, Iduuazị agha"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara Iduuazị ederede",
+        "options": [
+            "A na-ede ya na ọtụtụ akwụkwọ dị iche iche",
+            "Ọ na-adị na nkeji na nkeji",
+            "Ọ na-adị n'isi n'ụdị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Akụkọ e dere n'ụdị a ga-esi akwago ya n'ụdị mkparitauka bụ",
+        "options": [
+            "Ejije",
+            "Iduuazị",
+            "Agụmagụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị ejije ederede gụnyere",
+        "options": [
+            "Ejije ọyị, ejije nkuzi, ejije ọdachi",
+            "Ejije mmadụ, ejije ụtọmụfụ, ejije ofufe",
+            "Ejije ụwa, ejije nkoweobielu, ejije ntọọchị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụdị abụ ederede",
+        "options": [
+            "Abụ otito, abụ ikpe, abụ akwarịrị",
+            "Abụ nwa, abụ ntọala, abụ ọrụ",
+            "Abụ akụkọ, abụ akụkọala, abụ nwa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedu nke abụghị njirimara abụ ederede",
+        "options": [
+            "Nhazi abụ na-adị n'ogbara",
+            "Ọ na-esi n'aka fere n'aka",
+            "Abụ ọbụla bu isiokwu nke onwe ya"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị atụmatụ agụmagụ",
+        "options": [
+            "Ilu",
+            "Asinilu",
+            "Ukabuilu"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Okwu dị omimi eji akọwa ihe dị oke mkpa bụ",
+        "options": [
+            "Ilu",
+            "Uche",
+            "Okwu nkọwa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "... bụ nkenke akụkọ na-akparị mmadụ ọchị ma nye nghọta ya na-adị omimi",
+        "options": [
+            "Ilu",
+            "Asinilu",
+            "Agwụgwa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Gwa m ihe mere eze jiri rachaa ntụ. Ube",
+        "options": [
+            "Agwụgwa",
+            "Soromchịa",
+            "Ajụjụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Mbiambia mgbochi bụ?",
+        "options": [
+            "Mgbe mgbochi bịara",
+            "Igbochi ihe chọrọ ịbịa",
+            "Mgbe otu mgbochiume putara ọtụtụ ebe n'okwụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ụdaume kacha pụta ihe na ọmụmatụ mbiambia uda a",
+        "options": [
+            "T",
+            "E",
+            "Ekwe"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "... Na-ewere ihe adịghị ndụ ka a ga-asi na ọ dị ndụ.",
+        "options": [
+            "Adị ndụ",
+            "Mmemmadụ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ atụmatụ okwu nwere ọmụmatụ a.. \"Anụ eriri gbafere ebe ahụ. (Agwọ)\"",
+        "options": [
+            "Ilu",
+            "Nkwusara",
+            "Urọọkwu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a bụ ọmụmatụ ekwuecheọzọ",
+        "options": [
+            "Ebere na-adị ọcha wee ghara isụ akwa ya asụ",
+            "Mmiri, chere ka chi nke tupu I zowe",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ atụmatụ okwu nwe ọmụmatụ a ...\" Ụmụ ya bu aja dị n'ala\"",
+        "options": [
+            "Ekwuecheọzọ",
+            "Ilu",
+            "Ha nile"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ajụjụ nzaghachi bụ",
+        "options": [
+            "Ajụjụ a na-ajụ ndị mmụọ",
+            "Ajụjụ a anaghị achọ ụsa",
+            "Ajụjụ a na-ajụ ụwa nile"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "\"Kedu onye achọghị igafe n'ule GST 110?\" ... Ahịrịokwu a bụ ọmụmatụ atụmatụ okwu",
+        "options": [
+            "Igbudu okwu",
+            "Ajụjụ nzaghachi",
+            "O nweghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Gịnị bu Nghagideokwu",
+        "options": [
+            "Okwu buru ibu ejikọrọ ọnụ",
+            "Ihe abụọ na-arụrịta onwe ha ụka ka a na-edekọka ọnụ",
+            "O dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Atụmatụ okwu 'abụghịabụghị' bụ",
+        "options": [
+            "Okwu bụ nke atụrụ anya mana ọ bụghị ya",
+            "Amaghị ka ọ bụ ya ka ọ bụghị ya",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ọmụmatụ atụmatụ okwu 'Nkwuma' bụ",
+        "options": [
+            "Ha gara ịhụ nwanyị akpị gbara",
+            "A na-amụ aka ekpe na nka?",
+            "Ifeanyi bu ọdịmfe na-anyị arọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ọmụmatụ atụmatụ okwu 'igbuduokwu' bu",
+        "options": [
+            "Ifeanyi bu ọdịmfe na-anyị arọ",
+            "Ụra ga-eju onye nwụrụ anwụ afọ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mmewere agụmagụ igbo dị ole?",
+        "options": [
+            "Ise",
+            "Isii",
+            "Asatọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị mmewere agụmagụ igbo",
+        "options": [
+            "Olu",
+            "Asụsụ",
+            "Ntọala"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Mmewere agụmagụ ndị ọzọ na-agbado ukwu na...",
+        "options": [
+            "Isiokwu",
+            "Asụsụ",
+            "Nhazi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ mmewere agụmagụ na-egosi etu ihe si kwụrụ n'agụmagụ?",
+        "options": [
+            "Isiokwu",
+            "Asụsụ",
+            "Nhazi"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Enwere ụdị ntọala atọ na mmewere agụmagụ, ha bụ.",
+        "options": [
+            "Ntọala onye, ntọala onwe na ntọala anyị",
+            "Ntọala oge, ntọala ebe na nsirikwụrụ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Onye maọbu ndị nọ n'akụkọ, abụ maọbu ejije ka a na-akpọ",
+        "options": [
+            "Agwa",
+            "Ndị omume",
+            "Akparamagwa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Akparamagwa na mmewere agụmagụ bụ",
+        "options": [
+            "Mmadu ịkpa àgwà ọjọọ",
+            "Mmadụ ịkpa agwa adịghị mma",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Nsirihụ na mmewere agụmagụ bụ",
+        "options": [
+            "Etu odee siri hụ ndị ọzọ",
+            "Ọnọdụ odee nọ wee na-ezu ike",
+            "ọnọdụ odee weere mgbe ọ na-akọ akụkọ ya"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "\"Nke a bu ụzọ maọbu atụmatụ odee weputara ma gbasoo iji hụ na ihe niile, emereme niile, akparamagwa niile jikọtara iji wulite ọganihu akụkọ ahụ\".. Kedụ mmewere agụmagụ ahiriokwu a kacha kọwaa",
+        "options": [
+            "Nhazi na usoro",
+            "Ntọala",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Usoro akụkọ na mmewere agụmagụ pụtara ụdị abụọ",
+        "options": [
+            "Usoro jikọtara ejikọta na usoro ejikọtaghị ejikọta",
+            "Usoro njikọta na usoro mgbasa",
+            "Usoro dị mfe na usoro dị arọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Olu odee ji akọwapụta echiche ya nwere ike ịbụ",
+        "options": [
+            "Olu ọjọọ, olu ọma, olu adịghị mma",
+            "olu ọchị, olu ụjọ, olu ike, olu nkọcha",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "..... ka a kọwara dịka  ịgụ, itule, ighọta na iri erere ọrụ agụmagụ",
+        "options": [
+            "Ile anya n'agụmagụ",
+            "Nleta agụmagụ",
+            "Nnyocha agụmagụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ihe ndị a na-atule na nnyocha agụmagụ gụnyere",
+        "options": [
+            "Abụ, ejije, Iduuazị, akụkọ",
+            "ebumnuche odee, isiokwu ya, agwa na akparamagwa, nhazi, emereme, aka nka na asụsụ ya",
+            "Ọ dịghị nke ọ bụ."
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Onye nnyocha agụmagụ bu?",
+        "options": [
+            "Onye na-enyocha ihe nile",
+            "Onye na-agụ, tule, ghọta ma na-akọwaputa ihe zoro ezo n'agụmagụ",
+            "Onye na-aghọta ma na-edekwa agụmagụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ nke bụ njirimara onye nnyocha agụmagụ",
+        "options": [
+            "Ọ ga-amarịrị asụsụ odee",
+            "Ọ ga-abụrịrị mmadụ",
+            "Ọ ga-abụrịrị onye Igbo"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara onye nnyocha agụmagụ",
+        "options": [
+            "Ọ ga-abụ onye na-agụta akwụkwọ ọnụ ya",
+            "Onye nnyocha ga-abụ onye na-echeta ihe",
+            "Ọ ga-abụ onye na-eje ụka."
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke bụ uru nnyocha agụmagụ bara",
+        "options": [
+            "A naghị akwụ ụgwọ",
+            "O na-eme ka ndị amaghị maka agụmagụ ahụ mata maka ya",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Uru nnyocha agụmagụ bụ ndị a nanị",
+        "options": [
+            "Ọ bụghị onye obula na-enyocha akwụkwọ",
+            "O na-ewepu nhịamahụ dị na ighọta ọrụ agụmagụ",
+            "O na-enye ọgụụ mgbazi pụrụ iche"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Usoro ogo ole ka eji enyocha agụmagụ",
+        "options": [
+            "Otu",
+            "Abụọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Usoro nnyocha agụmagụ gụnyere",
+        "options": [
+            "Ogo ndubanye, ogo nkọwami, ogo ntule",
+            "Ogo nke mbu, ogo nke abụọ, ogo nke atọ, ogo nke anọ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ usoro nnyocha agụmagụ a na-enyocha: aha Akwụkwọ, aha odee, ụlọ ọrụ mbiputa, afọ mbiputa, ngalaba agụmagụ?",
+        "options": [
+            "Ogo ndubanye",
+            "Ogo nkọwami",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ usoro nnyocha agụmagụ a na-enyocha: ntọala, agwa na akparamagwa, asụsụ, nhazi akụkọ",
+        "options": [
+            "Ogo ndubanye",
+            "Ogo nkọwami",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ usoro nnyocha ebe onye nnyocha na-esite n'ihe ọ hutara n'akwụkwọ agụmagụ ọ gụrụ, nye mkpebi ma tunye aro nke ya?",
+        "options": [
+            "Ogo ndubanye",
+            "Ogo nkọwami",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "N'usoro nnyocha agụmagụ, ọrụ asụsụ n'eziputa na agụmagụ gụnyere ndị a ewepu otu",
+        "options": [
+            "Eji ya eziputa eziokwu, echiche na mmetụta",
+            "Eji ya akọwa agwa",
+            "O na-enye aka eziputa olu dị n'agụmagụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "N'usoro nnyocha agụmagụ, Brockett (1974:34) ziputara akparamagwa n'ogo ndị a ewepu",
+        "options": [
+            "Ogo mputaihe",
+            "Ogo otu",
+            "Ogo mmadụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "N'usoro nnyocha agụmagụ nke ntọala, otu n'ime ndị a abụghị ụdị agwa enwere",
+        "options": [
+            "Agwa rarịị",
+            "Agwa ndagharị",
+            "Agwa nzọpụta"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ onye kọwara omenala dika \"etu ndị si eme ihe ha\"?",
+        "options": [
+            "Nzimiro (1972)",
+            "Linton (1945:4)",
+            "Taylor (1970:40)"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Etụ ndị si eme ihe ha: etu ha si akpa agwa, nkwenye ha, njirimara ha nke ha nabatara ma na ahafenye ha site n'ọgbọ ruo n'ọgbọ bụ?",
+        "options": [
+            "Emume",
+            "Njirimara",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara omenala",
+        "options": [
+            "A na-aghafenye omenala site n'aka otu ọgbọ gaa n'ọgbọ ọzọ",
+            "Ọ bụ nke si n'elu ada",
+            "Naanị mmadụ nwere omenala"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Uru di n'imu omenala bụ ndị a ewepu",
+        "options": [
+            "Ọ na-akụziri ụmụaka etu esi ezu ohi",
+            "Eji ya akụziri ụmụaka ezigbo ọzụzụ",
+            "Ejikwa ya akuzi aka ọrụ dị iche iche"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ezigbo nkọwa omenala",
+        "options": [
+            "Omenala bu mgbakọta ọnụ nke ihe mmadụ mụtara dika aka ọrụ, nka, nkwenye naa amamihe igwe mmadụ nwekọrọ nke ha na-ahafenyekwa n'aka umu ha ọ wee si n'aka fere n'aka",
+            "Omenala bu ihe niile mmadụ mụtara iji chịa maọbu chekwa akparamagwa ha, dika omume, nkwenye, nghọta na amamihe ha",
+            "Omenala bụ ihe ọbụla ndị Igbo siri na ọ dị ha mma ka ọ bụrụ."
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị enyeghị nkọwa omenala",
+        "options": [
+            "Nzimiro (1972)",
+            "Linton (1945:4)",
+            "Taylor (1970:40)"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Agbụrụ atọ kacha pụta ihe n'ala anyị Naijiria gụnyere ndị a ewepu...",
+        "options": [
+            "Igbo",
+            "Awụsa",
+            "Efik"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ụzọ nke nweghị ike iji ziputa ndị Igbo",
+        "options": [
+            "Eji ya akọwaputa ebe obibi ha",
+            "Eji ya akọwaputa ndị ahụ na-asụ igbo dika asụsụ ha",
+            "Ejikwa ya eziputa asụsụ ahụ na onwe ya"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Okammuta bu Michael Onwuejeogu kọwara na ndụ ndị Igbo bidoro na nwoke a na-akpọ?",
+        "options": [
+            "Eri",
+            "Ibo",
+            "Omambala"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Okammuta bu Michael Onwuejeogu kwuru na ọ bụ site n'obodo ndị a ka ala igbo siri gbasaa",
+        "options": [
+            "Umuleri, Igbarịam, Amanuke, Nteje, Nando na Okụzụ",
+            "Nteje, Nando na Okụzụ",
+            "Aguleri, Umuleri, Igbarịam, Amanuke, Nteje, Nando na Okụzụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ọkammụta kwuru na ndị Igbo bidoro ndụ ha na ebe osimiri Naija na Benue jikotara nke dị na Lokoja?",
+        "options": [
+            "Ọkammụta Michael Onwuejeogu",
+            "Ọkammụta Adiele E. Afigbo",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị eziokwu banyere mmalite ndị Igbo",
+        "options": [
+            "Chukwu si n'elu igwe tụọ ndị Igbo n'ụwa",
+            "O nweghị onye maara ebe ndị Igbo si malite",
+            "Ndị Igbo siri na agbụrụ ndị juu hiere ụzọ oge ha si ala Ijipt na-aga na ala nkwa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara ndị Igbo",
+        "options": [
+            "Asụsụ ha",
+            "Akụkọ ha",
+            "Omenala ha"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Aka ọrụ ndị Igbo gụnyere ndị a ewepu",
+        "options": [
+            "ịkpụ uzu",
+            "ikpa akwa",
+            "Igbu ọchụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ejiji ndị Igbo",
+        "options": [
+            "Ndi okenye na awa ogodo",
+            "Iyi joggers",
+            "Ụmụaka na-agba ọtọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ebe obibi ndị Igbo gụnyere ndị a ewepu",
+        "options": [
+            "Anambara",
+            "Enugwu",
+            "Kano"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ndị Igbo nwere omenala a n'ogo n'ogo, ha gụnyere ndị a ewepu",
+        "options": [
+            "Nke a na-eme na nwata",
+            "Nke ụmụ agbọghọ",
+            "Nke a na-eme na agadi"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "N'ala Igbo izụlite ụmụaka abụghị naanị nne na nna ụmụaka ka ọ dịrị",
+        "options": [
+            "Asị",
+            "Eziokwu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị na-enyere nne na nna aka n'izulite ụmụaka gụnyere ndị a ewepu",
+        "options": [
+            "Ndị ọrụ ahụ ike",
+            "Nneochie",
+            "Nwanekunwa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị na-enye aka izụlite ụmụaka nke na-enye n'imu nwa bụ",
+        "options": [
+            "Ndị ọrụ ahụ ike",
+            "Nneochie",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ onye na-abịa ile nwaanyị mụrụ nwa omụgwọ dị ka omenala Igbo siri dị",
+        "options": [
+            "Nwanekunwa",
+            "Ndị agbataobi",
+            "Nne na Nna"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ etu nwanekunwa si enye aka n'izulite ụmụaka",
+        "options": [
+            "Ọ na-ele omụgwọ",
+            "Ọ na-akuziri ụmụaka n'ihe gbasara ọrụ aka",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị nkụzi na-enye aka n'izulite ụmụaka dị ụzọ abụọ, ha bụ",
+        "options": [
+            "Ndị nkụzi odinala na ndị nkụzi ogbara ọhụụ",
+            "Ndị nkụzi odinala na ndị nkụzi classroom",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ihe ndị a bụ ọrụ nwanekunwa n'izulite ụmụaka ewepu",
+        "options": [
+            "Ile nwanyị mụrụ nwa omụgwọ",
+            "Ọ na-enyere nwaanyị mụrụ nwa ọhụrụ aka n'ilekọta nwa ọhụrụ",
+            "Ọ na-akuziri nwa ahụ ka esi eme ihe dị iche iche"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Agbataobi onye bu nwanne ya",
+        "options": [
+            "Eziokwu",
+            "Asị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ndị nkụzi odinala na-akuziri ụmụaka n'ihe gbasara ọrụ aka dika",
+        "options": [
+            "Ịte nkwụ",
+            "Ịkụ azụ",
+            "Igbu mmadụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ndị nkụzi ogbara ọhụụ na-azuputa",
+        "options": [
+            "Dibịa oyibo",
+            "Ndị oshi",
+            "Ndị ọkaiwu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị nkụzi na-enye aka n'izulite ụmụaka na-enye aka ikuziri ụmụaka ka esi ede ma agu asụsụ bụ",
+        "options": [
+            "Ndị nkụzi ogbara ọhụụ",
+            "Ndị nkụzi odinala",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ndị na-enye aka n'izulite ụmụaka ọrụ ha bụ ikuziri ha akparamagwa ọma dị iche iche",
+        "options": [
+            "Ndị nkụzi",
+            "Ndi otu ọgbọ",
+            "Nwanekunwa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": ".... bu ihe niile ndị Igbo yịnyere /na etinye n'ahụ nke gụnyere Akwa/uwe, ọla aka, ọla ntị, ihe olu, ude dgz",
+        "options": [
+            "Ejiji",
+            "Ejiji ndị Igbo",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ụdị emume ndị Igbo n'eji ejiji dị iche iche gụnyere ndị a ewepu",
+        "options": [
+            "Alụmdi",
+            "Ichụ nta",
+            "Ịga ahịa"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ejighi ejiji egosiputa otu n'ime ndị a",
+        "options": [
+            "Omenala",
+            "Njirimara",
+            "Nkwenye"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị ejiji enwere dị",
+        "options": [
+            "Abụọ",
+            "Atọ",
+            "Isii"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ụdị ejiji enwere gụnyere",
+        "options": [
+            "Ejiji ọmama na ejiji ọjọọ",
+            "Ezigbo ejiji na ajọ ejiji",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mmadụ iyinye ihe dị mma ile anya n'ebe kwesịrị ekwesị, n'oge kwesịrị ekwesị na n'ọnọdụ kwesịrị ekwesị ka a na-akpọ?",
+        "options": [
+            "Ejiji",
+            "Ejiji kpuchiri ahụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Uru ezigbo ejiji gụnyere ndị a ewepu",
+        "options": [
+            "Ikpuchi ọtọ",
+            "Idobe onwe ya",
+            "Ịme ka mmadụ nweta ihu ọma"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mmadụ iyinye ihe ekwesighi n'ahụ, ihe anaghị ekpuchi ọtọ nakwa ihe adịghị mma ile anya bụ?",
+        "options": [
+            "Ajọ ejiji",
+            "Ejiji adịghị mma",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ otu n'ime ndị a na-akpalite ajọ ejiji n'etiti ndi ntorobịa igbo",
+        "options": [
+            "Enweghị egwu nke Chineke",
+            "Enweghị nghota gbasara ogogo Chineke debere mmadụ",
+            "awamanya"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Oke ǹnomi agburyu ndị ọcha na enweghị afọ ojuju bụ ihe ndị na-akpalite",
+        "options": [
+            "Ezigbo ejiji",
+            "Ejiji rụrụ arụ",
+            "Ajọ ejiji"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ajọ ejiji na-eweta ihe ndị ewepu",
+        "options": [
+            "Akwamiiko",
+            "Akọmọọnu",
+            "Mmadụ itufu njirimara ya"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a esoghi na ndị ọ dịrị ịbelata oghom na nsogbu dị na ajọ ejiji",
+        "options": [
+            "Ndị nne na nna",
+            "Agbataobi",
+            "Ndị buru ibu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "N'ibelata oghom na nsogbu dị na ajọ ejiji, ihe ndị a dị oke mkpa ewepu",
+        "options": [
+            "Idobe iwu Chineke na nke n'achikwa obodo",
+            "Ịhọta na Chineke debere mmadụ na ogo dị nnukwu elu karịsịa ihe ndị ọzọ ọ kere",
+            "Ịnwe mmasị na iji omenaala na nkwenye ndị Igbo kpọrọ ihe"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ ndị ọ dịrị imebe iwu megidere ajọ ejiji ma gosiputakwa ntaramahụhụ dịrị onye dara ya bu iwu?",
+        "options": [
+            "Ndị isi ụka na gọọmenti",
+            "Nwanekunwa na Nne na Nna",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ejiji ndị Igbo gụnyere ndị a ewepu",
+        "options": [
+            "Akwa/uwe",
+            "Ọla aka",
+            "Ọla ntị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Isi agụmagụ a nke bu \"Ejiji ndị Igbo\" si n'aka",
+        "options": [
+            "Theo Clara",
+            "Mercy Nnyigide",
+            "Nnamdi Orji"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mmemmé nwoke na nwaanyị abụghị otu ọbara ji ebiko iji mụta ụmụ nke ha n'ụlọ ziri ezi bụ?",
+        "options": [
+            "Mmemme nwoke na nwanyị",
+            "Mmemme imu nwa",
+            "Ịlụ di na nwunye"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Agwa kwesịrị ekwesị ka nwagbogho kpa ka di nwe ike I bịara ya bụ ndị a ewepu",
+        "options": [
+            "Ikele ndị okenye mgbe n'ebe kwesịrị",
+            "Ire ihe n'ahịa",
+            "Ọ ga enwe nsọpụrụ na obi umeala"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị na-etinye anya na mmiri iji chọta ezigbo nwanyi bụ ndị a ewepu",
+        "options": [
+            "Nwoke na-achọ ịlụ nwanyị",
+            "Nne na Nna",
+            "Nwanyị achọrọ ịlụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe a na-elegara anya n'ahụ nwoke na-achọ ịlụ nwanyị",
+        "options": [
+            "Ụdị nwoke ọ bụ",
+            "Ụdị ezinaụlo ọ si pụta",
+            "Akaọrụ ya"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ihe ndị a ka nwanyị ga-eme ka ọ chọta dị",
+        "options": [
+            "Ịzụ ohi",
+            "Igbara ndụ asiri ọsọ",
+            "Ọ ga ama kaesi esi ezigbo nri"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Mgbe ndị Jere okwu nwanyi ga-ala, nwunye ha ga-ewere ite mmanya sobe ha, ihe a na-akpo nke a bụ?",
+        "options": [
+            "Ije okwu nwanyị",
+            "Okwu mbụ nwanyị",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Omenala a na-eme iji gwa umunna na-alụrụla nwa ha nwaanyị bu?",
+        "options": [
+            "Igba mmanya nwanyị",
+            "Ilụrụ umunna nwaanyị",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Igba nkwụ ma ọ bụ ịgba mmanya nwanyị bụ",
+        "options": [
+            "Igbanye nkwụ n'iko",
+            "Igbanye mmanya n'efere",
+            "Ịgba akwụkwọ n'ụzọ omenala"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ụdị alụmalụ dị n'ala Igbo gụnyere ndị a ewepu",
+        "options": [
+            "Alụmalụ nwanyị na nwanyị",
+            "Alụmalụ mmụọ na mmadụ",
+            "Nkechi nwaanyị"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ebumnobi nwoke ịlụ igwe nwaanyị bụ ndị ewepu",
+        "options": [
+            "Ka enweta ndị ga-enye aka n'ọrụ ugbo",
+            "Ka e nweta ọtụtụ ụmụ ga-alụ agha",
+            "Ka ọ na-enyeju ha afọ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ụdị alụmalụ ndị ụka nabatara?",
+        "options": [
+            "Otu nwoke na igwe nwaanyị",
+            "Otu nwoke na otu nwaanyị",
+            "Alumalu na nwata"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Alụmalụ nwanyị na nwanyị bụ?",
+        "options": [
+            "Nwanyị ime ego n'isi nwanyị ibe ya",
+            "Nwanyị na nwanyị ibikọ ọnụ",
+            "Nwanyị ịlụ nwanne ya nwanyi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Alụmalụ na nwata bụ?",
+        "options": [
+            "Nwata ịlụ dị",
+            "Ịlụ nwata nwanyị mgbe ọ bụ nwata",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Nhachi nwaanyị na adị ire n'ezinụlọ",
+        "options": [
+            "Na-enweghi nwa nwanyị",
+            "Na-enweghi nwa nwoke",
+            "Na-achọghị nwa nwoke"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ebe nwoke weghara nwunye nwanne ya nwoke ma ọ bụ nwunye nna ya nwụrụ anwụ ka a na-akpọ?",
+        "options": [
+            "Nhachi nwaanyị",
+            "Nkuchi nwaanyị",
+            "Iweghara nwaanyị"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ịkpọnye nwata nwaanyị otu ezinaụlọ iji kwụọ ụgwọ onye nwụrụ anwụ bu?",
+        "options": [
+            "Nhachi nwaanyị",
+            "Nkuchi nwaanyị",
+            "Ịkpọnye nwaanyị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ihe ndị a dị nnukwu mkpa na a ga-emerịrị tupu nwoke na nwaanyị alụọ di na nwunye ewepu",
+        "options": [
+            "Nkwekọrịta nwoke na nwaanyị ga-alụ onwe ha",
+            "Nkwekọrịta ezinaụlọ ha abụọ",
+            "Itụwa nwanyị ime"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụdị alụmalụ enwere n'ala Igbo",
+        "options": [
+            "Nkuchi nwaanyị",
+            "Nhachi nwaanyị",
+            "Ezigbo alụmalụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ikewasị obibi ndụ mmadụ na-ebi n'ụwa iji mata mgbe a nọ na ya, mgbe ihe ji eme, mgbe ihe mere, wdgz ka a na-akpọ",
+        "options": [
+            "Ịgụ oge",
+            "Ikwu mgbe ihe jiri me",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ ndị Igbo ji agụ oge",
+        "options": [
+            "Ịgụ izu",
+            "Ịgụ ụbọchị",
+            "Ịgụ kpakpando"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ezigbo usoro nke ịgụ ụbọchị nke ndị Igbo jị agụ oge",
+        "options": [
+            "Ụzụ ụtụtụ, ụtụtụ, mgbaachị, ehihie, mgbede, uchichi, ndeeli",
+            "Ụzụ ụtụtụ, mgbaachị, ụtụtụ, ehihie, uchichi, ndeeli",
+            "Ụtụtụ, ehihie, mgbede, uchichi, ndeeli"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "N'ịgụ oge nke ụbọchị, kedụ nke bidoro na elekere iteghete wee ruo na elekere iri na otu nke ụtụtụ?",
+        "options": [
+            "Ụzụ ụtụtụ",
+            "Ụtụtụ",
+            "Ehihie"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ oge ọrụ jị eje ọrụ?",
+        "options": [
+            "Ụzụ ụtụtụ/ụtụtụ",
+            "Ụzụ ụtụtụ",
+            "Ụtụtụ/mgbaachị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ụzọ ezi nwafọ Igbo nwere ike iji mara ihe na-akụ?",
+        "options": [
+            "Echiche ya",
+            "Ọ jụọ ndị ọzọ",
+            "Ịle mmadụ anya n'ihu"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ oge abalị/uchichi ji ebido n'igu oge nke ụbọchị",
+        "options": [
+            "Elekere isii ruo elekere iri nke abalị",
+            "Elekere asatọ ruo elekere iri na otu nke abalị",
+            "Elekere asaa ruo elekere iri na abụọ nke abalị"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ụbọchị ole mepụtara otu izu ndị Igbo",
+        "options": [
+            "Anọ",
+            "Ise",
+            "Asaa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ihe mejupụtara ụbọchị ole dị na ịzụ ndị Igbo bu?",
+        "options": [
+            "Ụbọchị asaa dị na ya",
+            "Ụbọchị isii dị na ya",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ nke bụ isi na ahịa anọ ndị Igbo nwere",
+        "options": [
+            "Nkwọ",
+            "Eke",
+            "Afọr"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a bụ eziokwu",
+        "options": [
+            "Eke na Afọ bụ oke ebe Nkwọ na Orie bụ nwunye",
+            "Eke na Nkwọ bu oke ebe Afọ na Orie bu nwunye",
+            "Ọ dịghị nke bụ eziokwu"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ụzọ abụọ ndị Igbo ji agụ oge n'ọnwa bụ ndị a",
+        "options": [
+            "Ịle anya n'elu igwe na ịle anya n'elu ụwa",
+            "Ọnwa tụrụ n'igwe na iji ịzụ gụọ ọnwa",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "N'ịgụ oge ndị Igbo, izu ole dị n'ime otu ọnwa?",
+        "options": [
+            "Ise",
+            "Isii",
+            "Asatọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "N'ịgụ oge ndị Igbo, ebe ha gbadoro ụkwụ were na-agụ afọ bụ",
+        "options": [
+            "Elekere nile enwere",
+            "Ahịa anọ ndị Igbo",
+            "Udummiri na ọkọchị"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "N'ịgụ oge ndị Igbo, ọnwa ole ne-emebe otu afọ?",
+        "options": [
+            "Ọnwa iri na anọ",
+            "Ọnwa iri na atọ",
+            "Ọnwa iri na otu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ịgụ oge nke afọ dị mkpa maka ịma mgbe eji eme mmemme ndị a ewepu",
+        "options": [
+            "Alọm mmụọ",
+            "Mmemme uhiejiọkụ",
+            "Igba ọfala"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị uru ịgụ oge bara",
+        "options": [
+            "Eji oge ama mgbe a nọ na ha, ka ọ bụ ụtụtụ, ehihie maọbu abalị",
+            "Eji ya amata oge ihe ji eme",
+            "Eji ya amata maka agụmagụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Agwa ọjọọ, ndụ ọjọọ na omume ọjọọ ndị Igbo na ala igbo kpọrọ asị ka a na-akpọ?",
+        "options": [
+            "Arụ",
+            "Ihe ọjọọ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Omume jọrọ njọ nke mmadụ mere megide ibe ya, ala na ndịịchịe bụ",
+        "options": [
+            "Ihe ọjọọ",
+            "Ajọ omume",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị arụ dị n'ala Igbo",
+        "options": [
+            "Mmadụ ịkwugbu onwe ya",
+            "Mmadụ izu ohi ji n'ọba ma ọ bụ n'ubi onye ọzọ",
+            "Nwaanyị iti nwa ya nwoke ihe"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị nsọala enwere n'ala Igbo",
+        "options": [
+            "Mmadụ ịbụ ọgaranya mgbe gboo",
+            "Izu ohi",
+            "Nwaanyị ịbọrọ mmadụ ike"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Mmekwa nke ụmụ nne onye ma ọ bụ ndị mere arụ na-eme ka ha wee gbanahụ ntaramahụhụ so arụ nwanne ha mere bụ?",
+        "options": [
+            "Ịjụ aja",
+            "Ịyọ mgbaghara",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị a bụ arụ dị n'ala Igbo ewepu otu",
+        "options": [
+            "Nwaanyị ịmụ ejima n'oge gboo",
+            "Mmadụ ịma mmadụ ibe ya ụra",
+            "Ire mmadụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ ndị ọ bụ ọrụ ha ịkpụ arụ n'ala Igbo?",
+        "options": [
+            "Ndịịchịe",
+            "Ndị okenye",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ nke abụghị nsọala n'ala Igbo",
+        "options": [
+            "Izu nri mmadụ",
+            "Ime ọyị",
+            "Nwa agbọghọ alụghị dị ịtụrụ ime mkpuke/ogbi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ihe mere eji wube arụ na nsọala n'ala Igbo bụ ndị a ewepu",
+        "options": [
+            "Ka ndị Igbo nwee usoro obibi ndụ ziri ezi",
+            "Ịme ka mmadụ sọpụrụ ibe",
+            "Ka udo dị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Egwuregwu nke a na-egwu mgbe ọnwa na-eti n’abali ka a na-akpọ?",
+        "options": [
+            "Egwu ọnwa",
+            "Egwuregwu abalị",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ihe ndị a bụ ihe ụmụaka nwere ike ịme n'egwu ọnwa ewepu",
+        "options": [
+            "Ịgba mgba",
+            "Ịtụ okwe",
+            "Ịchụ ọsọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ oge eji egwu egwu ọnwa?",
+        "options": [
+            "Ụtụtụ",
+            "Abalị",
+            "Ehihie"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ ebe a na-anọ egwu egwu ọnwa?",
+        "options": [
+            "Ihu ụlọ",
+            "N'ime ụlọ",
+            "N'ama egwuregwu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe umunwoke na-eme n'egwu ọnwa ma ha nọrọ iche",
+        "options": [
+            "Isi nri",
+            "Igba mgba",
+            "Ichi ọzọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe umunwaanyị na-eme n'egwu ọnwa ma ha nọrọ iche",
+        "options": [
+            "Isi nri",
+            "Iza ụlọ",
+            "Ịmụ nwa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Umunwoke na umunwaanyị nọrọkọta ọnụ n'egwu ọnwa ha na-eme ihe ndị a ewepu",
+        "options": [
+            "Etu esi ebi n'ezinụlọ",
+            "Ichu mmiri",
+            "Ịzụkọrịta nchọkọrọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ nke abụghị uru egwu ọnwa",
+        "options": [
+            "Ọ na-enyere ụmụaka aka n'Ịlụ ọgụ",
+            "Ọ  na-akuziri ụmụaka ọtụtụ ihe gbasara ụzọ ndụ ndị igbo",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị uru egwu ọnwa",
+        "options": [
+            "Ọ na-enye ahụ mgbasị ike",
+            "Esi na ya amụta ezigbo akparamagwa",
+            "Esi na ya amụta ezi obibi ndụ nke ezinaụlọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Gịnị nọchiri anya egwu ọnwa na oge ugbua?",
+        "options": [
+            "Isi nri",
+            "Ihe nkiri onyonyoo",
+            "Ịga Akwụkwọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị Yoruba na-akọ ọjị, ndị awụsa na-ata ọjị mana ndị Igbo ....",
+        "options": [
+            "Na-akwanyere ya ugwu",
+            "Na-ere ya n'ahịa",
+            "Na-eji ya esi nri"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ka ndị Igbo si akwanyere ọjị ugwu?",
+        "options": [
+            "Ịsa ya mmiri tupu a taa ya",
+            "I gote ya ebe o buru ibu",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Anaghị ekwu nke a ma ọ bụrụ na ọjị adịghị",
+        "options": [
+            "Akọla m ọnụ ọjị",
+            "Ka m jide gị ụgwọ ọjị",
+            "Abalị ewerela ọjị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe e nwere ike iji chee ọjị ma ọ bụrụ na ọjị adịghị",
+        "options": [
+            "Ji",
+            "Akuilu",
+            "Aṅara"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ọjị adịghị egosi",
+        "options": [
+            "Ịhụnanya",
+            "Obi ọma",
+            "Ihu ọma"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ihe izizi eji anabata onye ọbịa bụ",
+        "options": [
+            "Aṅara",
+            "Ọjị",
+            "Mmiri"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ihe mere eji ebu ụzọ enye onye ọbịa ọjị bu iji gosi",
+        "options": [
+            "Na ọ nwere ego",
+            "Na ọ nọ n'ala Igbo",
+            "Ezi nnabata"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ọ bụrụ ebe mmadụ buru ibu, onye a na-ebunye ọjị bụ",
+        "options": [
+            "Onye okenye",
+            "Nwaanyị",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ onye na-agọ ma na-awakwa ọjị?",
+        "options": [
+            "Onye ọbụla",
+            "Onye ọbịa",
+            "Nwata"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị Igbo sịrị na \"onye okenye jiri ọjị n'aka kwaa 'ehem', ndị mmụọ....",
+        "options": [
+            "Echelie ntị ha elu ige ihe ọ na-ekwu",
+            "E buru oche nọrọ ala gee ya ntị",
+            "Ebute efere nri"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe mere ọtụtụ obodo ji enye ụmụaka ọjị ka ha waa",
+        "options": [
+            "Ọ dịghị onye ha na-eburu ihe ọjọọ n'obi",
+            "Ha na-ahụta ịwa ọjị dịka ozi",
+            "Ha amaghị ihe"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ndị Igbo sị na \"ọjị ruo ụlọ,....",
+        "options": [
+            "A taa ya",
+            "O kwuo ebe o si",
+            "Enye ya onye ọzọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a anaghị awa ọjị n'ala Igbo",
+        "options": [
+            "Okenye",
+            "Nwoke",
+            "Onye chiri echichi"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ọjị agbaghị ibe ọbụla ka a na-akpọ",
+        "options": [
+            "Ọjị ogbu",
+            "Ọjị Ikenga",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ọjị gbara ibe atọ ka a na-akpọ",
+        "options": [
+            "Ọjị ogbu",
+            "Ọjị Ikenga",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ọjị gbara ibe atọ na-egosi",
+        "options": [
+            "Ụbọchị anọ dị n'izu ndị Igbo",
+            "Ogologo ndụ ndị Igbo",
+            "Ekwu atọ nwaanyị ji esi nri"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ọjị gbara ibe anọ na-egosi",
+        "options": [
+            "Ụbọchị anọ dị n'izu ndị Igbo",
+            "Ogologo ndụ ndị Igbo",
+            "Ekwu atọ nwaanyị ji esi nri"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị nsọpụrụ ndị Igbo na-enye ọjị",
+        "options": [
+            "Nwaanyị anaghị arị elu osisi ọjị",
+            "N'ebe ụfọdụ, anaghị eche oji n'abalị",
+            "Nwaanyị anaghị awa ọjị ebe nwoke nọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe eji ọjị eme",
+        "options": [
+            "Eji ọjị agba ndụ",
+            "Eji ọjị amụ nwa",
+            "Eji ọjị agba azị"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ụdị omume mmadụ mesoro onye bịara na nke ya maọbu onye nọ na nke ya ka a na-akpọ",
+        "options": [
+            "Ịleta mmadụ",
+            "Imeso mmadụ ezi omume",
+            "Ịle ọbịa"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ụdị ọbịa abụọ enwere bụ ndị a",
+        "options": [
+            "Nnukwu ọbịa na obere ọbịa",
+            "Ọbịa nwere ego na ọbịa enweghị ego",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ihe mbụ a na-emere onye ọbịa bụ",
+        "options": [
+            "Igbasapụ ihu kelee ya",
+            "Inye ya nri",
+            "Inye ya mmiri"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ esi anabata onye ọbịa",
+        "options": [
+            "Ibunye ya oche",
+            "Ịgbasapụ ihu kelee ya",
+            "Inye ya ọjị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Onye ọbịa ịkwụ ọtọ na be mmadụ na-ebutere onye ọbịara na nke ya",
+        "options": [
+            "Ọganihu",
+            "Ịhụnanya",
+            "Ndaghachiazụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ ụdị ọjị kacha mma iji lee ọbịa n'ala Igbo",
+        "options": [
+            "Ọjị igbo",
+            "Ọjị ugo",
+            "Ọjị Yoruba"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe eji anọchi anya ọjị n'ala Igbo",
+        "options": [
+            "Akwụkwọ",
+            "Ose ọjị",
+            "Mmanya"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị uru ịle ọbịa bara",
+        "options": [
+            "A na-esi n'ile ọbịa enweta onyinye dị iche iche",
+            "Ile ọbịa na-eme ka ọrụ dị mfe n'ezinaụlọ",
+            "Ụfọdụ na-esikwa n'ile ọbịa nweta ihu ọma n'ihe gbasara alụmalụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Inye onye ọbịa ọjị na-egosi",
+        "options": [
+            "Chi ọma",
+            "Ezigbo nnabata",
+            "Ọmụmụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị a bụ ọghọm dị na-ịle ọbịa ewepu",
+        "options": [
+            "Mgbe ụfọdụ ile ọbịa na-achịpụta mmadụ ụkwụ n'ezi",
+            "Ịle ọbịa na-ebute ịhụnanya"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Onye nwere ike pụrụ iche ịmere mmadụ ihe ọma maọbu ịnye ntaramahụhụ dịka ọrụ onye sị dị bụ",
+        "options": [
+            "Chukwu",
+            "Ndịichie",
+            "Ndị nne"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ ndị Igbo ji abami Chukwu ime",
+        "options": [
+            "Ikpe ekpere",
+            "Ichụ aja",
+            "Ịnye ofufe"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị Igbo na-akpọ Chukwu \"Chineke\" iji gosi na",
+        "options": [
+            "Ọ bụ onye okike",
+            "Ọ kesịrị ụwa ma na-echekwa ụwa",
+            "Onye onyinye"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ndị Igbo na-akpọ ya Chukwu maka na",
+        "options": [
+            "Ọ bụ onye okike",
+            "Ọ kesịrị ụwa ma na-echekwa ụwa",
+            "Onye onyinye"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị Igbo na-akpọ Chukwu \"olisaebuuwa\" iji gosi na",
+        "options": [
+            "Ọ bụ onye okike",
+            "Ọ kesịrị ụwa ma na-echekwa ụwa",
+            "Onye onyinye"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Chukwu kere ihe nile ma nke a na-ahụ anya ma nke anaghị ahụ anya, nke a mere ndị Igbo ji akpọ ya",
+        "options": [
+            "Chukwu",
+            "Ezechịtaokee",
+            "Ọbasidinelu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Chukwu na-eweta ihe onyinye dị iche iche enye ndị nke ya, aha ya nke gosiputara agwa ya bụ",
+        "options": [
+            "Chukwu",
+            "Ezechịtaokee",
+            "Ọbasidinelu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Nwoke oghorogho anya na-egosi na Chukwu",
+        "options": [
+            "Na-ahuzu ihe niile",
+            "Dị omimi  nke gosiri na onweghị onye nwere ike ịkọwa ụdị ya",
+            "Bụ ezigbo Chi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Eze di n’elu ọgọdọ ya na-akpụ n’ala na-akọwa na Chukwu",
+        "options": [
+            "Na-ahuzu ihe niile",
+            "Dị omimi  nke gosiri na onweghị onye nwere ike ịkọwa ụdị ya",
+            "Bụ ezigbo Chi"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "A na-akpọ Chukwu \"Amaama amasị amasị\" maka na ọ",
+        "options": [
+            "Na-ahuzu ihe niile",
+            "Dị omimi  nke gosiri na onweghị onye nwere ike ịkọwa ụdị ya",
+            "Bụ ezigbo Chi"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị chi ndị Igbo si n'aka ha agakwuru Chukwu",
+        "options": [
+            "Ụfejiọkụ",
+            "Ala",
+            "Mmụọ mmiri"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ndụ ịpụ n'ime mmadụ ka a na-akpọ",
+        "options": [
+            "Ọnwụ",
+            "Ndụ ịpụ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ihe eji mara onye nwụrụ anwụ ewepu",
+        "options": [
+            "Ọ naghị ekwu okwu",
+            "Ọ naghị eri nri",
+            "Ọ naghị achụ nwaanyị"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke akọwaghị ọnwụ",
+        "options": [
+            "Mgbe mmadụ kwụsịrị iku ume",
+            "Mgbe ndụ pụrụ na mmadụ",
+            "Mgbe mmadụ kwụsịrị ije ọrụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ihe eji ama na mmadụ anwụọla bụ",
+        "options": [
+            "Mgbe mmadụ kwụsịrị iri nri",
+            "Mgbe mmadụ kwụsịrị iku ume",
+            "Mgbe mmadụ kwụsịrị ije ụka"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Nke a abụghị aha ndị Igbo na-aza iji gosi egwu ha nwere ebe ọnwụ nọ",
+        "options": [
+            "Ọnwụebula",
+            "Ọnwụbiko",
+            "Ọnwụraa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị nkwenye ndị Igbo gbasara ọnwụ",
+        "options": [
+            "Onye nwụọ, ụmụnne ya esoro ya nwụọ",
+            "Onye ọbụla ga-anwụrịrị",
+            "Onye nwụrụ anwụ nwere ebe ọ na-eje"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ndị Igbo na-atụ ilu si na \"mpekere ndụ ka.....\"",
+        "options": [
+            "Mmadụ bụ n'isi",
+            "Onye ọbụla ga-enwe",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị Igbo kwenyere na mkpụrụ obi mmadụ na-amalite njem mgbe",
+        "options": [
+            "Onye ahụ rịara ọrịa",
+            "Onye ahụ nwụrụ",
+            "Kpatara ego"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị nkwenye ndị Igbo ma akwaa onye nwụrụ anwụ nke ọma",
+        "options": [
+            "Onye ahụ ga-enweta ezigbo ọnọdụ n'ala ndị mmụọ",
+            "Ọ ga-ekete oke ya n'ala ndị mmụọ",
+            "Ụmụnne ya agaghị anwụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Mmemme ikpeazụ e ji eduga onye nwụrụ anwụ n'ala mmụọ ka ọ gaa zuo ike ka a na-akpọ",
+        "options": [
+            "Nnukwu mmemme",
+            "Akwamozu",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ọnwụ ndị biri ezigbo ndụ, nwee ezinaụlọ na ụmụaka, ndị mere agadi, chie echichi dị iche iche n'obodo, ndị enweghị nsọ ọbụla ha metara ga-egbochi ọkwụkwa ha bụ",
+        "options": [
+            "Ezigbo ọnwụ",
+            "Ọnwụ ndịichie",
+            "Ozu olili"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Akwamozu onye chiri echichi ụmụ ya ji ego ka a na-akpọ",
+        "options": [
+            "Ezigbo ọnwụ",
+            "Ọnwụ ndịichie",
+            "Ozu olili"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Na nkwenye ndị Igbo, nanị ndị biri ezigbo ndụ na-eru ala mmụọ",
+        "options": [
+            "Eziokwu",
+            "Asị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ọnwụ ndị biri ajọ ndụ, ndị na-ezu ohi, ndị na-egbu mmadụ, rịara ajọ ọrịa dịka ekpenta, kitikpa dgz maọbu onye kwụrụ ụdọ bụ",
+        "options": [
+            "Ezigbo ọnwụ",
+            "Ọnwụ ndịichie",
+            "Ozu olili"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a esoghi na ụdị ọnwụ atọ enwere n'ala Igbo",
+        "options": [
+            "Ọnwụ Chi",
+            "Ajọ ọnwụ",
+            "Ọnwụ ndịichie"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ọnwụ aka melu bụ",
+        "options": [
+            "Ezigbo ọnwụ",
+            "Onye mmadụ gburu maọbu onye arusị tigburu",
+            "Onye gbajiri aka tupu ọ nwụọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị nne na nna, ikwunaibe lagoro mmụọ ka a na-akpọ",
+        "options": [
+            "Ndịichie",
+            "Ọnwụ nne na nna",
+            "Ikwunaibe nwụrụ anwụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a enyeghị ezi nkọwa ndị bụ ndịichie",
+        "options": [
+            "Ndị nne naa nna, ikwunaibe lagoro mmụọ",
+            "Ndị nwụrụ anwụ mana ha ka dị ndụ, ha ka bikwa n'etiti ohaneze, ha na ndị ezinaụlọ ha ka na-enwekwa mmekọrịta",
+            "Ndị nna nna anyị ha nwụrụ anwụ, naanị ndị bichara ezigbo ndụ n'ụwa ma nwụkwaa ezigbo ọnwụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụdị ndịichie abụọ enwere n'ala Igbo bụ",
+        "options": [
+            "Ndịichie nnukwu na ndịichie obere",
+            "Ndịichie nwere ego na ndịichie enweghị ego",
+            "Ndịichie nọ n'obi na ndịichie nọ ili nso"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a anaghị abụ ndịiche ma ha nwụọ",
+        "options": [
+            "Ndị chiri echichi",
+            "Ụmụaka",
+            "Ndị nna"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị biri ezi ndụ, nwee ezinaụlọ na akụnaụba, chie echichi dị iche iche dị elu tupu ha laa mmụọ bụ ndị",
+        "options": [
+            "Ichie ukwu",
+            "Ichie nta",
+            "Ichie nwere ego"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe ndị Igbo ji anọchite anya ndịichie",
+        "options": [
+            "Ọfọ",
+            "Okpesi",
+            "Okwute"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị nwere ezinaụlọ, bie ezigbo ndụ mana ha enweghị ike ichi echichi dị elu tupu ha a laa mmụọ bụ",
+        "options": [
+            "Ichie ukwu",
+            "Ichie nta",
+            "Ichie nwere ego"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ọrụ dịrị ndịichie banyere ndị dị ndụ bụ",
+        "options": [
+            "Igbochiri ha nsogbu dị iche iche",
+            "Ịrụrụ ha ụlọ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ ezinaụlọ si enye ndịichie ugwu na nsọpụrụ",
+        "options": [
+            "Mgbe ọbụla a na-agọ ọjị, a na-ebu ụzọ kpọkuo ha",
+            "Mgbe ọbụla a chọrọ ịṅụ mmanya, a na-ebu ụzọ tapụrụ ha n'ala",
+            "Anaghị akwafu mmiri n'iro n'abalị maọbu zapụ aja n'iro na-ebughi ụzọ mee mkpọtụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ụzọ ndị dị ndụ si enye ndịichie ugwu na nsọpụrụ",
+        "options": [
+            "A na-arụtara ha ụlọ nke ha",
+            "Ha anaghị akwafu mmiri n'iro n'abalị",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ntaramahụhụ dịrị ndị dị ndụ ma ha enyeghị ndịichie ugwu na nsọpụrụ dịrị ha",
+        "options": [
+            "Ọnwụ ike",
+            "Nrịanrịa",
+            "Ihe isike"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ezi mmekọrịta dị n'etiti ndịichie na ndị dị ndụ na-eweta ihe ndị a ewepu",
+        "options": [
+            "Ọnwụnwa",
+            "Ọmụmụ",
+            "Ahụike"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ndiichie nọ ili nso bụ",
+        "options": [
+            "Ichie ukwu",
+            "Ndị etinyere n'ili",
+            "Ndị okenye nwụrụ mana elibeghị ha"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ihe eji ama ndị okenye bụ",
+        "options": [
+            "Ikwu ọtụtụ okwu",
+            "Amamihe na ikwu eziokwu",
+            "Afọ ukwu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a bụ usoro ọchịchị ndị Igbo",
+        "options": [
+            "Ọchịchị ndị chi mere eze na ọchịchị a na-achị n'obodo n'obodo",
+            "Ọchịchị onye chọrọ ịbụ eze na ọchịchị onye nwere ego",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara ọchịchị ndị chi mere eze",
+        "options": [
+            "Ọ bụ ọchịchị ụmụ nwoke",
+            "Ha na-esikarị na otu mkpuke",
+            "Ọ bụ ọchịchị ndị nwere ego"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ebe ọchịchị ndị Igbo si amalite bụ",
+        "options": [
+            "Na nzukọ",
+            "N'ezinaụlọ",
+            "Na ikwu na ibe"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ usoro ogo ọchịchị nke bụ eziokwu n'ala Igbo",
+        "options": [
+            "Ọchịchị obodo, ogbe, ezinaụlọ, ụmụnna",
+            "Ụmụnna, ogbe, ọchịchị obodo",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara ọchịchị ndị chi mere eze",
+        "options": [
+            "Ọnọdụ ha dị nsọ",
+            "Ha ga-abụrịrị ndị ụka",
+            "O zughi Igbo nile ọnụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Họpụta nke abụghị njirimara ọchịchị ezinaụlọ",
+        "options": [
+            "Ọ na-abụkarị otu mkpuke",
+            "Ọkpara bụ onye isi",
+            "Nne na-esote ọkpara"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Nna mụrụ ụmụ nwoke ndị nwesịrị ezinaụlọ nke ha ka a na-akpọ",
+        "options": [
+            "Nnukwu nna ochie",
+            "Nna ụmụnna",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ nke abụghị otu enyemaka n'ọchịchị obodo",
+        "options": [
+            "Ndị nze na ọzọ",
+            "Ndịichie",
+            "Otu ọgbọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ nke esoghị na njirimara ọchịchị ezinaụlọ",
+        "options": [
+            "Ofufe na ọfọ dị n'aka ọkpara",
+            "Diọkpara na-elekọta ihe nile",
+            "Ọkpara na-alutara onye ọbụla nwunye"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ihe Jikọrọ ụmụnna ọnụ bụ",
+        "options": [
+            "Ọbara",
+            "Nnukwu nna ochie",
+            "Nne ha"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị njirimara ọchịchị ụmụnna",
+        "options": [
+            "Okenye n'aka Nna ha bụ onye isi",
+            "Ọfọ (ọchịchị) anaghị apụ apụ",
+            "Ha enweghị nlụkọrịta"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Njirimara ọchịchị ogbe gụnyere ndị a ewepu",
+        "options": [
+            "Nanị otu ụmụnna na-emebe otu ogbe",
+            "Ha nwere ihe jikọtara ha ọnụ",
+            "Ụmụnna tọchara ndị ọzọ ka ama bu isi n'ógbè ahụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ usoro ogo ọchịchị nwere ike ịlụkọrịta onwe ha",
+        "options": [
+            "Ezinaụlọ",
+            "Ụmụnna",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ nke abụghị ọrụ ogbe",
+        "options": [
+            "Idozi esemokwu",
+            "Ịlụtara ndị ogbe ha nwaanyị",
+            "Ịrụ ụlọ akwụkwọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ụzọ ọchịchị obodo si adị bụ ndị a ewepu",
+        "options": [
+            "Inwe nzukọ obodo",
+            "Inwe eze obodo na ezeala",
+            "Ọchịchị aka ike"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Uzọ eji achọpụta ihe miri emi nke echiche mmadụ nkịtị agaghị enwe ike ịchọpụta ka ndị Igbo na-akpọ",
+        "options": [
+            "Ịgba afa",
+            "Nyopụta",
+            "Nchọpụta ihe omimi"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị mkpa ịgba afa dị",
+        "options": [
+            "A na-esi n'ịgba afa achọpụta ihe dị omimi karịrị mmadụ nghọta",
+            "Esi na ya amata ebumnobi ndị mmụọ maọbu ndị nwụrụ anwụ",
+            "Ọ na-ewepụrụ ndị Igbo mgbagwoju anya, nchekasi na nwute na-esite na nsogbu na-abiara ha na ndụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ nke enweghị ike ime ka je hụ dibịa afa",
+        "options": [
+            "Ụga ọmụmụ",
+            "Amamihe",
+            "Oke ndọghachi azụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ịgba afa n'ala Igbo dị ụzọ abụọ. Ha bụ",
+        "options": [
+            "Afa otu onye na afa ikpo",
+            "Afa obodo nile na afa otu ezinaụlọ",
+            "Nnukwu afa na obere afa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ihe eji agba afa onwe?",
+        "options": [
+            "Ọkụkọ",
+            "Jị",
+            "Mmanya ọkụ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe mere mmadụ ga-eji hụ dibịa afa",
+        "options": [
+            "Ọnwụ erughị eru",
+            "Ijụta onye kpara arụ",
+            "Nwaanyị mụọ nwa"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Afa a na-agbara ọha mmadụ bụ",
+        "options": [
+            "Afa onye",
+            "Afa ikpo",
+            "Afa mmadụ nile"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Afa a na-agbara obodo ka a na-akpọ",
+        "options": [
+            "Afa ụgbọ anọ",
+            "Afa ikpo",
+            "Afa obodo nile"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Akarangwa eji agba afa bụ ndị a ewepu",
+        "options": [
+            "Ikenga nke dibịa afa",
+            "Mkpụrụ afa",
+            "Ọkụkọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ego a ga-enye dibịa afa ka a na-akpọ",
+        "options": [
+            "Ego ayọrọ",
+            "Ego mgbata njụ",
+            "Ego ndị mmụọ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ a si agba afa",
+        "options": [
+            "Afa mmiri",
+            "Afa ugegbe",
+            "Afa aja uzuzu"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ nke abụghị ngwa orụ eji agba afa",
+        "options": [
+            "Ego ayọrọ",
+            "Ose ọjị",
+            "Ọjị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ndị a bụ uru ịgba afa ewepu",
+        "options": [
+            "Iwepu nchekasị",
+            "Iwete omenala na nkwenye ndị Igbo",
+            "Iwete ọdịda"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke abụghị ụdị ezinaụlọ ndị Igbo nwere",
+        "options": [
+            "Ezinaụlọ otu nwoke",
+            "Ezinaụlọ otu mkpuke",
+            "Ezinaụlọ mbasa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ebe nwoke nwe ezinaụlọ ahụ luru karịa otu nwaanyị ka a na-akpọ",
+        "options": [
+            "Ezinaụlọ otu nwoke",
+            "Ezinaụlọ otu mkpuke",
+            "Ezinaụlọ mbasa"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Ezinaụlọ nwoke lụrụ nanị otu nwaanyị bụ",
+        "options": [
+            "Ezinaụlọ otu nwoke",
+            "Ezinaụlọ otu mkpuke",
+            "Ezinaụlọ mbasa"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "\"Ikwu\" bụ ndị metụtara ezinaụlọ",
+        "options": [
+            "Site n'aka nri",
+            "Site n'aka Nna ha",
+            "Site n'aka Nne ha"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị oke na ọrụ dịrị nna",
+        "options": [
+            "Iti onye ọbụla ihe",
+            "Inye ndị be ya ezigbo ndụmọdụ",
+            "Nchekwa ezinaụlọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ nke abụghị ọrụ nne n'ezinaụlọ",
+        "options": [
+            "Ikwanyere dị ya ugwu",
+            "Ilekọta dị ya na ụmụ ya anya",
+            "Inye ụmụaka ezigbo nkuzi"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Oke na ọrụ dịrị ụmụaka n'ezinaụlọ bụ ndị a ewepu",
+        "options": [
+            "Ije ozi dịrị ha n'ụlọ",
+            "Ịlụ ọgụ oge nile",
+            "Ikpa ezigbo agwa"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Oke na ọrụ dịrị ndị ikwu na ibe",
+        "options": [
+            "Idozi esemokwu",
+            "Inye aka na mmemme",
+            "Inye ha nsogbu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke abụghị isi nri ndị Igbo nwere",
+        "options": [
+            "Osikapa",
+            "Ji",
+            "Akpụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ndị eji ịkọ jị mara n'ala Igbo?",
+        "options": [
+            "Ndị nwere ego",
+            "Ndị iyom",
+            "Ụmụaka"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Mmemme a na-eme tupu erie ji n'ala Igbo bụ",
+        "options": [
+            "Mmemme ji",
+            "Iri ji ọhụrụ",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ mgbe eji akọ ede?",
+        "options": [
+            "Na ọkọchị",
+            "Mgbe ọbụla",
+            "Mgbe udummiri malitere"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Eji ede esi",
+        "options": [
+            "Osikapa",
+            "Ji",
+            "Ofe Akwụkwọ"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Esi na akpụ eweta nri ndị a ewepu",
+        "options": [
+            "Garị",
+            "Ụkwa",
+            "Abacha",
+            "Nri olilo"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Nri esighi na ji enweta bụ",
+        "options": [
+            "Nri ji",
+            "Ji ọgwụgwọ",
+            "Ji ọkpa"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke akọwaghị omụgwọ",
+        "options": [
+            "Oge nwaanyị mụrụ nwa ọhụrụ ji ezu ike",
+            "Oge nne onye mụrụ nwa ji elekọta nwa ya nwaanyị na nwa ọ mụrụ ọhụrụ anya rukwaa mgbe ha gbasiri ike",
+            "Oge nwoke nwunye ya mụrụ nwa ji ekele nwunye ya maka ihe isi ike ọgabigara mgbe ọ dị ime"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Onye na-ele omụgwọ bụ",
+        "options": [
+            "Nne nwaanyị mụrụ nwa",
+            "Nwanekunwa",
+            "Nwaanyị mụrụ nwa"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe nwaanyị na-egote iji je omụgwọ",
+        "options": [
+            "Ogiri",
+            "Akwụkwọ",
+            "Mmanụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Mbechapụ ọnụ ọnụ amụ nwoke ka ọ wee dịka nke mmadụ ka ndị Igbo na-akpọ",
+        "options": [
+            "Ịbe ọnụ ọnụ amụ",
+            "Usoro omụgwọ",
+            "Ibi ugwu"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ndị a bụ ihe mere ndị Igbo ji ebi nwa nwoke ọbụla ugwu ewepu",
+        "options": [
+            "Ka nwa ahụ nwee ego",
+            "Ka amụ ya dịka nke mmadụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ nke abụghị ihe nne na nna na-egote maka ibi nwa ha ugwu",
+        "options": [
+            "Oke ọkpa",
+            "Egbene",
+            "Mkpụrụ ọjị"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ oge eji ebi nwa ugwu",
+        "options": [
+            "Oge ọbụla nne ya chọrọ",
+            "Ka nwa ahụ mechara abalị asatọ eji mụọ ya",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Oge eji ekuputa nwa ọhụụ bụ",
+        "options": [
+            "Oge isi siri ya ike",
+            "Oge nne ya jere ahịa",
+            "Oge ọ mere izu asaa"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ihe mere ndị Igbo ji agụ aha",
+        "options": [
+            "Etu ihu nwa siri dị",
+            "Ihe mere oge amụrụ nwa",
+            "Etu ọnọdụ sịrị dị"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Gịnị mere eji enyere onye ọrịa aka?",
+        "options": [
+            "Maka o nweghị ego",
+            "Isi adịsịghị ya mma"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị ụzọ esi enyere onye ọrịa aka",
+        "options": [
+            "Ịleta ha na mgbe na mgbe",
+            "Ịlụrụ ha nwaanyị",
+            "Ịsụrụ ya akwa"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Umunwaanyị ajadu bụ",
+        "options": [
+            "Umunwaanyị buru ibu",
+            "Umunwaanyị na-ere aja",
+            "Umunwaanyị di ha nwụrụ"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Onye nwere ike ikuchi nwaanyị ajadu bụ",
+        "options": [
+            "Nwanne ya nwoke",
+            "Nwanne di ya",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ndị a mụrụ n'agbata afọ atọ, anọ maọbu ise jikọrọ onwe ha ọnụ na-aza otu aha ma na-emekọ ihe ọnụ bụ",
+        "options": [
+            "Otu ọgbọ",
+            "Ụmụnne",
+            "Ọ dịghị nke ọ bụ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ekele a na-enye onye na-aga njem?",
+        "options": [
+            "Jisike",
+            "Imeela",
+            "Ụtụtụ ọma"
+        ],
+        "answer": "optionChColor"
+    },
+    {
+        "question": "Ekele onye ọrịa bụ",
+        "options": [
+            "Jisike",
+            "Imeela",
+            "Ndo"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ekele onye na-arụ ọrụ bụ",
+        "options": [
+            "Jisike",
+            "Imeela",
+            "Ụtụtụ ọma"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Kedụ ndezu ilu a \"akanri kwọọ akaekpe, akaekpe...\"",
+        "options": [
+            "Agbajie",
+            "A kwụrụ ọtọ",
+            "A ghọrọ akanri"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Otu n'ime ndị a abụghị mkpa arusi na-egboro ụmụnna maọbu obodo",
+        "options": [
+            "Oke ịta amunsu",
+            "Oke ọmụmụ",
+            "Ọnwụ ụmụaka na ntorobịa"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Ihe ofufe mmadụ ji aka ya keputa maka ọdịmma ya onwe ya bụ nke a na-akpọ",
+        "options": [
+            "Chukwu",
+            "Okpesi",
+            "Arusi"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Kedụ nke akọwaghị 'okenye'",
+        "options": [
+            "Onye ọbụla nwere ego",
+            "Onye tọrọ mmadụ",
+            "Onye bu onye ọzọ ọgbọ"
+        ],
+        "answer": "optionAColor"
+    },
+    {
+        "question": "Ndị a bụ ụzọ esi enye ndị okenye ofufe na nsọpụrụ ewepu",
+        "options": [
+            "Ị gara ha ozi",
+            "A gaghị asịrị ha asị",
+            "Ibu ụzọ kelee ha"
+        ],
+        "answer": "optionCColor"
+    },
+    {
+        "question": "Kedụ onye a na-enye ofufe na nsọpụrụ dịrị nna?",
+        "options": [
+            "Ada",
+            "Ọkpara",
+            "Umuokpu"
+        ],
+        "answer": "optionBColor"
+    },
+    {
+        "question": "Kedụ ụzọ esi enye ada ofufe na nsọpụrụ",
+        "options": [
+            "Iti ha ihe",
+            "Ịlụnye ha di",
+            "Anaghị agbagha okwu ya agbagha"
+        ],
+        "answer": "optionDColor"
+    },
+    {
+        "question": "Ofufe na nsọpụrụ a na-enye Ndịịchịe",
+        "options": [
+            "Iti ha ihe",
+            "Inye ha nri n'oge na mgbe ọ kwesịrị",
+            "Iluso ha ọgụ"
+        ],
+        "answer": "optionBColor"
+    }
+]
