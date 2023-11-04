@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:tests/module/sun_earth_moon/main.dart';
 
 import 'module/cathedral_door/main.dart';
 import 'module/change_state/main.dart';
@@ -231,6 +232,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Spiral Image'),
             onTap: () => goToScreen(
               const SpiralImage(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Sun Earth Moon'),
+            onTap: () => goToScreen(
+              const SunEarthMoon(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
