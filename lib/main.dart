@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:tests/module/sample/main.dart';
 import 'package:tests/module/sun_earth_moon/main.dart';
 
 import 'module/cathedral_door/main.dart';
@@ -182,6 +183,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Picker Num'),
             onTap: () => goToScreen(
               const PickerNum(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Sample'),
+            onTap: () => goToScreen(
+              const SampleScreen(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
