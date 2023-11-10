@@ -1,5 +1,8 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:tests/module/camera_app/main.dart';
+import 'package:tests/module/custom_bottom_nav_bar/main.dart';
 import 'package:tests/module/sample/main.dart';
 import 'package:tests/module/sun_earth_moon/main.dart';
 
@@ -26,7 +29,12 @@ import 'module/wavy_clip/main.dart';
 import 'module/wrapped_order/main.dart';
 import 'module/zig_zag/main.dart';
 
-void main() {
+late List<CameraDescription> cameras;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  cameras = await availableCameras();
+
   runApp(const ProviderScope(child: MyApp()));
 }
 
@@ -70,6 +78,16 @@ class _HelperAppState extends State<HelperApp> {
       body: ListView(
         children: [
           ListTile(
+            title: const Text('Camera Circle'),
+            onTap: () => goToScreen(
+              const CameraApp(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
             title: const Text('Catheral Door'),
             onTap: () => goToScreen(
               const CathedralDoor(),
@@ -103,6 +121,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Curvy Card'),
             onTap: () => goToScreen(
               const CurvyCard(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Custom Bottom Nav Bar'),
+            onTap: () => goToScreen(
+              const CustomBottomNavBar(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,

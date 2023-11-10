@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SampleScreen extends StatefulWidget {
-  const SampleScreen({super.key});
+class CustomBottomNavBar extends StatefulWidget {
+  const CustomBottomNavBar({super.key});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -13,10 +13,10 @@ class SampleScreen extends StatefulWidget {
   // always marked "final".
 
   @override
-  State<SampleScreen> createState() => _SampleScreenState();
+  State<CustomBottomNavBar> createState() => _CustomBottomNavBarState();
 }
 
-class _SampleScreenState extends State<SampleScreen> {
+class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -130,7 +130,7 @@ class CirclePath extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     var path = Path();
-    double length = 32; //Adjust this 32 for the deep sink
+    // double length = 32; //Adjust this 32 for the deep sink
     double offset = 15; //Adjust this 50 for the border
     double height = size.height * 0.32;
     double circleWidth = 50;
