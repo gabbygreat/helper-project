@@ -35,7 +35,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
         // the App.build method, and use it to set our appbar title.
         title: const Text('Text Border'),
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey,
       body: Stack(
         children: [
           Positioned.fill(
@@ -47,83 +47,219 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: Builder(builder: (context) {
-              double height = 150;
-              double circleHeight = 80;
-              double pad = 5;
-
-              ///No touch
-              double heightFactor =
-                  ((((height - (circleHeight / 2)) * 100) / height)) / 100;
-              return SizedBox(
-                height: height,
-                child: Stack(
-                  children: [
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: FractionallySizedBox(
-                        heightFactor: heightFactor,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // FOR DEV-SCIENTIST
+                SizedBox(
+                  height: 120,
+                  child: Stack(
+                    children: [
+                      ClipPath(
+                        clipper: SunkenClipper(),
                         child: Container(
-                          decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(10),
-                              topRight: Radius.circular(10),
+                          color: Colors.white,
+                        ),
+                      ),
+                      const Align(
+                        alignment: Alignment.topCenter,
+                        child: CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.blue,
+                          child: Icon(
+                            Icons.shopify_rounded,
+                            color: Colors.white,
+                            size: 40,
+                          ),
+                        ),
+                      ),
+                      const Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(
+                                  Icons.home_outlined,
+                                  size: 30,
+                                  color: Colors.grey,
+                                ),
+                                Icon(
+                                  Icons.favorite_outline,
+                                  size: 30,
+                                  color: Colors.grey,
+                                ),
+                                SizedBox(
+                                  width: 90,
+                                ),
+                                Icon(
+                                  Icons.notifications_outlined,
+                                  size: 30,
+                                  color: Colors.grey,
+                                ),
+                                Icon(
+                                  Icons.person_outline,
+                                  size: 30,
+                                  color: Colors.grey,
+                                ),
+                              ],
                             ),
-                          ),
-                          child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              ...[
-                                Icon(
-                                  Icons.abc,
-                                  color: Colors.blue,
-                                ),
-                                Icon(
-                                  Icons.abc,
-                                  color: Colors.blue,
-                                ),
-                              ],
-                              SizedBox(
-                                width: 30,
-                              ),
-                              ...[
-                                Icon(
-                                  Icons.abc,
-                                  color: Colors.blue,
-                                ),
-                                Icon(
-                                  Icons.abc,
-                                  color: Colors.blue,
-                                ),
-                              ],
-                            ],
-                          ),
+                            SizedBox(
+                              height: 30,
+                            ),
+                          ],
                         ),
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.topCenter,
-                      child: Container(
-                        height: circleHeight,
-                        width: circleHeight,
-                        decoration: const BoxDecoration(
-                          color: Colors.red,
-                          shape: BoxShape.circle,
-                        ),
-                        padding: EdgeInsets.all(pad),
-                        child: const CircleAvatar(),
-                      ),
-                    ),
-                  ],
+                      )
+                    ],
+                  ),
                 ),
-              );
-            }),
+                // Builder(builder: (context) {
+                //   double height = 150;
+                //   double circleHeight = 80;
+                //   double pad = 5;
+
+                //   ///No touch
+                //   double heightFactor =
+                //       ((((height - (circleHeight / 2)) * 100) / height)) / 100;
+                //   return SizedBox(
+                //     height: height,
+                //     child: Stack(
+                //       children: [
+                //         Align(
+                //           alignment: Alignment.bottomCenter,
+                //           child: FractionallySizedBox(
+                //             heightFactor: heightFactor,
+                //             child: Container(
+                //               decoration: const BoxDecoration(
+                //                 color: Colors.black,
+                //                 borderRadius: BorderRadius.only(
+                //                   topLeft: Radius.circular(10),
+                //                   topRight: Radius.circular(10),
+                //                 ),
+                //               ),
+                //               child: const Row(
+                //                 mainAxisAlignment:
+                //                     MainAxisAlignment.spaceEvenly,
+                //                 children: [
+                //                   ...[
+                //                     Icon(
+                //                       Icons.abc,
+                //                       color: Colors.blue,
+                //                     ),
+                //                     Icon(
+                //                       Icons.abc,
+                //                       color: Colors.blue,
+                //                     ),
+                //                   ],
+                //                   SizedBox(
+                //                     width: 30,
+                //                   ),
+                //                   ...[
+                //                     Icon(
+                //                       Icons.abc,
+                //                       color: Colors.blue,
+                //                     ),
+                //                     Icon(
+                //                       Icons.abc,
+                //                       color: Colors.blue,
+                //                     ),
+                //                   ],
+                //                 ],
+                //               ),
+                //             ),
+                //           ),
+                //         ),
+                //         Align(
+                //           alignment: Alignment.topCenter,
+                //           child: Container(
+                //             height: circleHeight,
+                //             width: circleHeight,
+                //             decoration: const BoxDecoration(
+                //               color: Colors.black,
+                //               shape: BoxShape.circle,
+                //             ),
+                //             padding: EdgeInsets.all(pad),
+                //             child: const CircleAvatar(),
+                //           ),
+                //         ),
+                //       ],
+                //     ),
+                //   );
+                // }),
+              ],
+            ),
           ),
         ],
       ),
     );
   }
+}
+
+class SunkenClipper extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    double offset = 25; //Adjust this 25 for the border
+
+    path.quadraticBezierTo(
+      (size.width / 2 - (2 * offset)) / 2,
+      offset + 5,
+      size.width / 2 - (2 * offset) - offset,
+      offset,
+    );
+    path.quadraticBezierTo(
+      size.width / 2 - (2 * offset),
+      offset,
+      size.width / 2 - (2 * offset),
+      offset + 20,
+    );
+    path.lineTo(
+      size.width / 2 - (2 * offset),
+      size.height * 0.6 - offset,
+    );
+    path.quadraticBezierTo(
+      size.width / 2 - (2 * offset),
+      size.height * 0.6,
+      size.width / 2 - (2 * offset) + offset,
+      size.height * 0.6,
+    );
+    path.lineTo(
+      size.width / 2 + (2 * offset) - offset,
+      size.height * 0.6,
+    );
+    path.quadraticBezierTo(
+      size.width / 2 + (2 * offset),
+      size.height * 0.6,
+      size.width / 2 + (2 * offset),
+      size.height * 0.6 - offset,
+    );
+    path.lineTo(
+      size.width / 2 + (2 * offset),
+      offset + offset,
+    );
+    path.quadraticBezierTo(
+      size.width / 2 + (2 * offset),
+      offset,
+      size.width / 2 + (2 * offset) + offset,
+      offset,
+    );
+    path.quadraticBezierTo(
+      (size.width / 2 - (2 * offset)) * 2,
+      offset + 5,
+      size.width,
+      0,
+    );
+    path.lineTo(size.width, 0);
+    path.lineTo(size.width, size.height);
+    path.lineTo(0, size.height);
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => true;
 }
 
 class CirclePath extends CustomClipper<Path> {
