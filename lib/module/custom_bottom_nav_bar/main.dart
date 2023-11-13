@@ -50,7 +50,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // FOR DEV-SCIENTIST
+                // BEGIN FOR DEV-SCIENTIST
                 SizedBox(
                   height: 120,
                   child: Stack(
@@ -116,79 +116,81 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                     ],
                   ),
                 ),
-                // Builder(builder: (context) {
-                //   double height = 150;
-                //   double circleHeight = 80;
-                //   double pad = 5;
+                // END FOR DEV-SCIENTIST
 
-                //   ///No touch
-                //   double heightFactor =
-                //       ((((height - (circleHeight / 2)) * 100) / height)) / 100;
-                //   return SizedBox(
-                //     height: height,
-                //     child: Stack(
-                //       children: [
-                //         Align(
-                //           alignment: Alignment.bottomCenter,
-                //           child: FractionallySizedBox(
-                //             heightFactor: heightFactor,
-                //             child: Container(
-                //               decoration: const BoxDecoration(
-                //                 color: Colors.black,
-                //                 borderRadius: BorderRadius.only(
-                //                   topLeft: Radius.circular(10),
-                //                   topRight: Radius.circular(10),
-                //                 ),
-                //               ),
-                //               child: const Row(
-                //                 mainAxisAlignment:
-                //                     MainAxisAlignment.spaceEvenly,
-                //                 children: [
-                //                   ...[
-                //                     Icon(
-                //                       Icons.abc,
-                //                       color: Colors.blue,
-                //                     ),
-                //                     Icon(
-                //                       Icons.abc,
-                //                       color: Colors.blue,
-                //                     ),
-                //                   ],
-                //                   SizedBox(
-                //                     width: 30,
-                //                   ),
-                //                   ...[
-                //                     Icon(
-                //                       Icons.abc,
-                //                       color: Colors.blue,
-                //                     ),
-                //                     Icon(
-                //                       Icons.abc,
-                //                       color: Colors.blue,
-                //                     ),
-                //                   ],
-                //                 ],
-                //               ),
-                //             ),
-                //           ),
-                //         ),
-                //         Align(
-                //           alignment: Alignment.topCenter,
-                //           child: Container(
-                //             height: circleHeight,
-                //             width: circleHeight,
-                //             decoration: const BoxDecoration(
-                //               color: Colors.black,
-                //               shape: BoxShape.circle,
-                //             ),
-                //             padding: EdgeInsets.all(pad),
-                //             child: const CircleAvatar(),
-                //           ),
-                //         ),
-                //       ],
-                //     ),
-                //   );
-                // }),
+                Builder(builder: (context) {
+                  double height = 150;
+                  double circleHeight = 80;
+                  double pad = 5;
+
+                  ///No touch
+                  double heightFactor =
+                      ((((height - (circleHeight / 2)) * 100) / height)) / 100;
+                  return SizedBox(
+                    height: height,
+                    child: Stack(
+                      children: [
+                        Align(
+                          alignment: Alignment.bottomCenter,
+                          child: FractionallySizedBox(
+                            heightFactor: heightFactor,
+                            child: Container(
+                              decoration: const BoxDecoration(
+                                color: Colors.black,
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(10),
+                                  topRight: Radius.circular(10),
+                                ),
+                              ),
+                              child: const Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  ...[
+                                    Icon(
+                                      Icons.abc,
+                                      color: Colors.blue,
+                                    ),
+                                    Icon(
+                                      Icons.abc,
+                                      color: Colors.blue,
+                                    ),
+                                  ],
+                                  SizedBox(
+                                    width: 30,
+                                  ),
+                                  ...[
+                                    Icon(
+                                      Icons.abc,
+                                      color: Colors.blue,
+                                    ),
+                                    Icon(
+                                      Icons.abc,
+                                      color: Colors.blue,
+                                    ),
+                                  ],
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Align(
+                          alignment: Alignment.topCenter,
+                          child: Container(
+                            height: circleHeight,
+                            width: circleHeight,
+                            decoration: const BoxDecoration(
+                              color: Colors.black,
+                              shape: BoxShape.circle,
+                            ),
+                            padding: EdgeInsets.all(pad),
+                            child: const CircleAvatar(),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }),
               ],
             ),
           ),
