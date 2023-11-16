@@ -117,7 +117,6 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                   ),
                 ),
                 // END FOR DEV-SCIENTIST
-
                 Builder(builder: (context) {
                   double height = 150;
                   double circleHeight = 80;
