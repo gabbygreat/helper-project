@@ -12,7 +12,7 @@ import 'module/curvy_card/main.dart';
 import 'module/custom_tabbar/main.dart';
 import 'module/glowing_arc/main.dart';
 import 'module/gradient_circle/main.dart';
-import 'module/ios_longpress/main.dart';
+import 'module/custom_dialog/main.dart';
 import 'module/list_selection/main.dart';
 import 'module/loader_increase/main.dart';
 import 'module/loop_path/main.dart';
@@ -108,16 +108,6 @@ class _HelperAppState extends State<HelperApp> {
           ),
           const Divider(),
           ListTile(
-            title: const Text('Custom Tabbar'),
-            onTap: () => goToScreen(
-              const CustomTabbar(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
-          ),
-          const Divider(),
-          ListTile(
             title: const Text('Curvy Card'),
             onTap: () => goToScreen(
               const CurvyCard(),
@@ -138,6 +128,26 @@ class _HelperAppState extends State<HelperApp> {
           ),
           const Divider(),
           ListTile(
+            title: const Text('Custom Dialog'),
+            onTap: () => goToScreen(
+              const CustomDialog(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Custom Tabbar'),
+            onTap: () => goToScreen(
+              const CustomTabbar(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
             title: const Text('Glowing Arc'),
             onTap: () => goToScreen(
               const GlowingArc(),
@@ -151,16 +161,6 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Glowing Circle'),
             onTap: () => goToScreen(
               const GradientCircle(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
-          ),
-          const Divider(),
-          ListTile(
-            title: const Text('Ios WhatsApp Dialog'),
-            onTap: () => goToScreen(
-              const IosWhatsAppDialog(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
