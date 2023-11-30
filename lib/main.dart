@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tests/module/camera_app/main.dart';
 import 'package:tests/module/custom_bottom_nav_bar/main.dart';
+import 'package:tests/module/network/main.dart';
 import 'package:tests/module/sample/main.dart';
 import 'package:tests/module/sun_earth_moon/main.dart';
 
@@ -191,6 +192,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Loop Path'),
             onTap: () => goToScreen(
               const LoopPath(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Network Screen'),
+            onTap: () => goToScreen(
+              const NetworkScreen(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
