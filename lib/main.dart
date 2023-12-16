@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tests/module/camera_app/main.dart';
 import 'package:tests/module/custom_bottom_nav_bar/main.dart';
+import 'package:tests/module/gradient_tab/main.dart';
 import 'package:tests/module/network/main.dart';
 import 'package:tests/module/sample/main.dart';
 import 'package:tests/module/sun_earth_moon/main.dart';
@@ -162,6 +163,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Glowing Circle'),
             onTap: () => goToScreen(
               const GradientCircle(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Gradient Tab'),
+            onTap: () => goToScreen(
+              const GradientTab(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,

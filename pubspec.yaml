@@ -47,6 +47,8 @@ dependencies:
   carousel_slider: ^4.2.1
   flutter_riverpod: ^2.4.5
   camera: ^0.10.5+5
+  http: ^1.1.2
+  signals: ^1.4.1
 
 dev_dependencies:
   flutter_test:

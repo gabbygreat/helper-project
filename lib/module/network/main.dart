@@ -62,7 +62,6 @@ class CountryDataResponse {
     json.forEach((key, value) {
       countries[key] = CountryData.fromJson(value);
     });
-
     return CountryDataResponse(data: countries);
   }
 }
