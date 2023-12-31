@@ -2,7 +2,7 @@ name: tests
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.5 <4.0.0'
+  sdk: ">=3.0.5 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,7 +30,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -70,7 +69,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -108,3 +106,33 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+spider:
+  # Generates unit tests to verify that the assets exists in assets directory
+  generate_tests: true
+  # Use this to remove vcs noise created by the `generated` comments in dart code
+  no_comments: true
+  # Exports all the generated file as the one library
+  export: true
+  # This allows you to import all the generated references with 1 single import!
+  use_part_of: true
+  # Generates a variable that contains a list of all asset values.
+  use_references_list: false
+  # Generates files with given ignore rules for file.
+  # ignored_rules:
+  #   - public_member_api_docs
+  # Generates dart font family references for fonts specified in pubspec.yaml
+  # fonts: true
+  # -------- OR --------
+  # fonts:
+  #   class_name: MyFonts
+  #   file_name: my_fonts
+  # Location where all the generated references will be stored
+  package: resources
+  groups:
+    - path: assets/svg
+      class_name: AppSvg
+      types: [.svg]
+    - path: assets/image
+      class_name: AppImages
+      types: [.png, .jpg]

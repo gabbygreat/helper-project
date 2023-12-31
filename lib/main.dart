@@ -1,8 +1,12 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:tests/module/animated_video/main.dart';
 import 'package:tests/module/camera_app/main.dart';
 import 'package:tests/module/custom_bottom_nav_bar/main.dart';
+import 'package:tests/module/flow/main.dart';
+import 'package:tests/module/food_animation/main.dart';
 import 'package:tests/module/gradient_tab/main.dart';
 import 'package:tests/module/network/main.dart';
 import 'package:tests/module/sample/main.dart';
@@ -46,14 +50,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const HelperApp(),
-    );
+    return ScreenUtilInit(
+        designSize: const Size(430.0, 932.0),
+        builder: (context, _) {
+          return MaterialApp(
+            title: 'Flutter Demo',
+            theme: ThemeData(
+              colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+              useMaterial3: true,
+            ),
+            home: const HelperApp(),
+          );
+        });
   }
 }
 
@@ -79,6 +87,16 @@ class _HelperAppState extends State<HelperApp> {
       ),
       body: ListView(
         children: [
+          ListTile(
+            title: const Text('Animated Video'),
+            onTap: () => goToScreen(
+              const AnimatedVideo(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
           ListTile(
             title: const Text('Camera Circle'),
             onTap: () => goToScreen(
@@ -143,6 +161,26 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Custom Tabbar'),
             onTap: () => goToScreen(
               const CustomTabbar(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Flow Example'),
+            onTap: () => goToScreen(
+              const FlowExample(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('Food Animation'),
+            onTap: () => goToScreen(
+              const FoodAnimation(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
