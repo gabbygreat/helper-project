@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomBottomNavBar extends StatefulWidget {
   const CustomBottomNavBar({super.key});
@@ -17,23 +18,19 @@ class CustomBottomNavBar extends StatefulWidget {
 }
 
 class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
+  bool showFirst = true;
+  bool showSecond = true;
+  bool showThird = true;
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
+    showSecond = false;
+    showThird = false;
     return Scaffold(
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: const Text('Text Border'),
+        title: const Text(
+          'Custom Bottom Nav Bar',
+        ),
       ),
       backgroundColor: Colors.grey,
       body: Stack(
@@ -45,154 +42,228 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                // BEGIN FOR DEV-SCIENTIST
-                SizedBox(
-                  height: 120,
-                  child: Stack(
-                    children: [
-                      ClipPath(
-                        clipper: SunkenClipper(),
-                        child: Container(
-                          color: Colors.white,
-                        ),
-                      ),
-                      const Align(
-                        alignment: Alignment.topCenter,
-                        child: CircleAvatar(
-                          radius: 30,
-                          backgroundColor: Colors.blue,
-                          child: Icon(
-                            Icons.shopify_rounded,
-                            color: Colors.white,
-                            size: 40,
-                          ),
-                        ),
-                      ),
-                      const Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment: MainAxisAlignment.end,
-                          children: [
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          if (showFirst)
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  //Kaycey
+                  Container(
+                    padding: const EdgeInsets.all(10),
+                    color: Colors.white,
+                    child: Column(
+                      children: [
+                        10.verticalSpace,
+                        ClipPath(
+                          clipper: GameLikeClip(),
+                          child: Container(
+                            height: 60,
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
+                            decoration: const BoxDecoration(
+                              color: Colors.black,
+                            ),
+                            child: Row(
                               children: [
-                                Icon(
-                                  Icons.home_outlined,
-                                  size: 30,
-                                  color: Colors.grey,
+                                Expanded(
+                                  child: Row(
+                                    children: [
+                                      const CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        child: Icon(
+                                          Icons.home,
+                                        ),
+                                      ),
+                                      5.horizontalSpace,
+                                      const Text(
+                                        'Home',
+                                        style: TextStyle(color: Colors.white),
+                                      )
+                                    ],
+                                  ),
                                 ),
-                                Icon(
-                                  Icons.favorite_outline,
-                                  size: 30,
-                                  color: Colors.grey,
+                                const Expanded(
+                                  child: CircleAvatar(
+                                    backgroundColor: Colors.green,
+                                    child: Icon(
+                                      Icons.shopping_cart,
+                                    ),
+                                  ),
                                 ),
-                                SizedBox(
-                                  width: 90,
-                                ),
-                                Icon(
-                                  Icons.notifications_outlined,
-                                  size: 30,
-                                  color: Colors.grey,
-                                ),
-                                Icon(
-                                  Icons.person_outline,
-                                  size: 30,
-                                  color: Colors.grey,
+                                Expanded(
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: [
+                                      const Text(
+                                        'Menu',
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                      5.horizontalSpace,
+                                      const CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        child: Icon(
+                                          Icons.grid_3x3,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
-                            SizedBox(
-                              height: 30,
+                          ),
+                        ),
+                        30.verticalSpace,
+                      ],
+                    ),
+                  ),
+                  // END FOR KAYCEY
+                  if (showSecond)
+                    // BEGIN FOR DEV-SCIENTIST
+                    SizedBox(
+                      height: 120,
+                      child: Stack(
+                        children: [
+                          ClipPath(
+                            clipper: SunkenClipper(),
+                            child: Container(
+                              color: Colors.white,
+                            ),
+                          ),
+                          const Align(
+                            alignment: Alignment.topCenter,
+                            child: CircleAvatar(
+                              radius: 30,
+                              backgroundColor: Colors.blue,
+                              child: Icon(
+                                Icons.shopify_rounded,
+                                color: Colors.white,
+                                size: 40,
+                              ),
+                            ),
+                          ),
+                          const Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              children: [
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Icon(
+                                      Icons.home_outlined,
+                                      size: 30,
+                                      color: Colors.grey,
+                                    ),
+                                    Icon(
+                                      Icons.favorite_outline,
+                                      size: 30,
+                                      color: Colors.grey,
+                                    ),
+                                    SizedBox(
+                                      width: 90,
+                                    ),
+                                    Icon(
+                                      Icons.notifications_outlined,
+                                      size: 30,
+                                      color: Colors.grey,
+                                    ),
+                                    Icon(
+                                      Icons.person_outline,
+                                      size: 30,
+                                      color: Colors.grey,
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(
+                                  height: 30,
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  // END FOR DEV-SCIENTIST
+                  if (showThird)
+                    Builder(builder: (context) {
+                      double height = 150;
+                      double circleHeight = 80;
+                      double pad = 5;
+
+                      ///No touch
+                      double heightFactor =
+                          ((((height - (circleHeight / 2)) * 100) / height)) /
+                              100;
+                      return SizedBox(
+                        height: height,
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: FractionallySizedBox(
+                                heightFactor: heightFactor,
+                                child: Container(
+                                  decoration: const BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(10),
+                                      topRight: Radius.circular(10),
+                                    ),
+                                  ),
+                                  child: const Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    children: [
+                                      ...[
+                                        Icon(
+                                          Icons.abc,
+                                          color: Colors.blue,
+                                        ),
+                                        Icon(
+                                          Icons.abc,
+                                          color: Colors.blue,
+                                        ),
+                                      ],
+                                      SizedBox(
+                                        width: 30,
+                                      ),
+                                      ...[
+                                        Icon(
+                                          Icons.abc,
+                                          color: Colors.blue,
+                                        ),
+                                        Icon(
+                                          Icons.abc,
+                                          color: Colors.blue,
+                                        ),
+                                      ],
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Align(
+                              alignment: Alignment.topCenter,
+                              child: Container(
+                                height: circleHeight,
+                                width: circleHeight,
+                                decoration: const BoxDecoration(
+                                  color: Colors.black,
+                                  shape: BoxShape.circle,
+                                ),
+                                padding: EdgeInsets.all(pad),
+                                child: const CircleAvatar(),
+                              ),
                             ),
                           ],
                         ),
-                      )
-                    ],
-                  ),
-                ),
-                // END FOR DEV-SCIENTIST
-                Builder(builder: (context) {
-                  double height = 150;
-                  double circleHeight = 80;
-                  double pad = 5;
-
-                  ///No touch
-                  double heightFactor =
-                      ((((height - (circleHeight / 2)) * 100) / height)) / 100;
-                  return SizedBox(
-                    height: height,
-                    child: Stack(
-                      children: [
-                        Align(
-                          alignment: Alignment.bottomCenter,
-                          child: FractionallySizedBox(
-                            heightFactor: heightFactor,
-                            child: Container(
-                              decoration: const BoxDecoration(
-                                color: Colors.black,
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(10),
-                                  topRight: Radius.circular(10),
-                                ),
-                              ),
-                              child: const Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  ...[
-                                    Icon(
-                                      Icons.abc,
-                                      color: Colors.blue,
-                                    ),
-                                    Icon(
-                                      Icons.abc,
-                                      color: Colors.blue,
-                                    ),
-                                  ],
-                                  SizedBox(
-                                    width: 30,
-                                  ),
-                                  ...[
-                                    Icon(
-                                      Icons.abc,
-                                      color: Colors.blue,
-                                    ),
-                                    Icon(
-                                      Icons.abc,
-                                      color: Colors.blue,
-                                    ),
-                                  ],
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                        Align(
-                          alignment: Alignment.topCenter,
-                          child: Container(
-                            height: circleHeight,
-                            width: circleHeight,
-                            decoration: const BoxDecoration(
-                              color: Colors.black,
-                              shape: BoxShape.circle,
-                            ),
-                            padding: EdgeInsets.all(pad),
-                            child: const CircleAvatar(),
-                          ),
-                        ),
-                      ],
-                    ),
-                  );
-                }),
-              ],
+                      );
+                    }),
+                ],
+              ),
             ),
-          ),
         ],
       ),
     );
@@ -304,6 +375,65 @@ class CirclePath extends CustomClipper<Path> {
       height + offset,
     );
     // path.close();
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
+}
+
+class GameLikeClip extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    var offset = 40.0;
+    var diameter = 15.0;
+    var sH = 15.0; //Steep Height
+    path.moveTo(0, size.height / 2);
+    path.quadraticBezierTo(0, size.height, offset, size.height);
+    path.lineTo((1 / 3) * size.width, size.height);
+
+    /// STEEP ----1
+    path.lineTo(((1 / 3) * size.width) + 15, size.height - sH);
+    path.lineTo(((1 / 3) * size.width) + 15 + 20, size.height - sH);
+    path.lineTo((size.width / 2) - diameter, size.height);
+    // STEEP
+
+    path.lineTo((size.width / 2) + diameter, size.height);
+
+    /// STEEP ----2
+    path.lineTo((size.width / 2) + diameter + 15, size.height - sH);
+    path.lineTo((size.width / 2) + diameter + 15 + 20, size.height - sH);
+    path.lineTo((2 / 3) * size.width, size.height);
+    // STEEP
+
+    path.lineTo(size.width - offset, size.height);
+    path.quadraticBezierTo(
+      size.width,
+      size.height,
+      size.width,
+      size.height / 2,
+    );
+    path.quadraticBezierTo(size.width, 0, size.width - offset, 0);
+    path.lineTo((2 / 3) * size.width, 0);
+
+    /// STEEP -----3
+    path.lineTo((2 / 3) * size.width - 15, sH);
+    path.lineTo((2 / 3) * size.width - 15 - 20, sH);
+    path.lineTo((size.width / 2) + diameter, 0);
+    // STEEP
+
+    path.lineTo((size.width / 2) - diameter, 0);
+
+    /// STEEP ------4
+    path.lineTo((size.width / 2) - diameter - 15, sH);
+    path.lineTo((size.width / 2) - diameter - 15 - 20, sH);
+    path.lineTo((1 / 3) * size.width, 0);
+    // STEEP
+
+    path.lineTo(offset, 0);
+    path.quadraticBezierTo(0, 0, 0, size.height / 2);
+
     return path;
   }
 
