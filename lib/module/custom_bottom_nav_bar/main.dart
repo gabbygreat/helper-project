@@ -23,7 +23,6 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
   bool showThird = true;
   @override
   Widget build(BuildContext context) {
-    /// TODO
     /// Change any of this variable to
     /// Show the other bottom nav bars
     showFirst = true;

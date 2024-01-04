@@ -11,6 +11,7 @@ import 'package:tests/module/gradient_tab/main.dart';
 import 'package:tests/module/network/main.dart';
 import 'package:tests/module/sample/main.dart';
 import 'package:tests/module/sun_earth_moon/main.dart';
+import 'package:tests/module/x/main.dart';
 
 import 'module/cathedral_door/main.dart';
 import 'module/change_state/main.dart';
@@ -51,17 +52,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-        designSize: const Size(430.0, 932.0),
-        builder: (context, _) {
-          return MaterialApp(
-            title: 'Flutter Demo',
-            theme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-              useMaterial3: true,
+      designSize: const Size(430.0, 932.0),
+      builder: (context, _) {
+        return MaterialApp(
+          title: 'Flutter Demo',
+          theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(
+              seedColor: Colors.deepPurple,
             ),
-            home: const HelperApp(),
-          );
-        });
+            useMaterial3: true,
+          ),
+          home: const HelperApp(),
+        );
+      },
+    );
   }
 }
 
@@ -401,6 +405,16 @@ class _HelperAppState extends State<HelperApp> {
             title: const Text('Zig Zag'),
             onTap: () => goToScreen(
               const ZigZag(),
+            ),
+            trailing: const Icon(
+              Icons.arrow_forward_ios,
+            ),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text('AnimatedX'),
+            onTap: () => goToScreen(
+              const AnimatedX(),
             ),
             trailing: const Icon(
               Icons.arrow_forward_ios,
