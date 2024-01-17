@@ -98,7 +98,7 @@ class CurvedPath extends CustomClipper<Path> {
       0,
       (size.width / 2) + 50, // you can adjust
       40,
-      size.width / 2,
+      size.width / 2, // you can adjust
       45,
     );
     path.cubicTo(
@@ -106,7 +106,7 @@ class CurvedPath extends CustomClipper<Path> {
       45,
       (size.width / 2) - 45, // you can adjust
       0,
-      (size.width / 2) - 60,
+      (size.width / 2) - 60, // you can adjust
       0,
     );
 
