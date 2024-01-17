@@ -1,106 +1,150 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-
-
-Future<String> sendFakeName({
-  required WidgetRef ref,
-}) async {
-  /// Set your state provider to true
-  /// This will fire your listeners
-  /// That is why the stateprovider is a global
-  /// variable, so, you can fire it from anywhere
-  ref.read(sendingState.notifier).state = true;
-
-  /// Imitate a fake API request
-  await Future.delayed(const Duration(seconds: 2));
-
-  /// Uncomment the next line to imitate a failed request
-  // throw const SocketException('message');
-  /// Set your provider back to false
-  /// Since the request is successful
-  ref.read(sendingState.notifier).state = false;
-  return 'Done';
-}
-
-/// Here's your global state provider
-/// Keep in mind that it has to be global
-/// Just so you can access it from anywhere
-final sendingState = StateProvider((ref) => false);
-
-class SampleScreen extends ConsumerStatefulWidget {
-  const SampleScreen({super.key});
+class DialogBody extends StatefulWidget {
+  const DialogBody({super.key});
 
   @override
-  ConsumerState<SampleScreen> createState() => _SampleScreenState();
+  State<DialogBody> createState() => _DialogBodyState();
 }
 
-class _SampleScreenState extends ConsumerState<SampleScreen> {
-  /// The button callback
-  void makeRequest() {
-    sendFakeName(
-      ref: ref,
-    ).then(
-      (value) {
-        if (!mounted) return null;
-        return ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Success'),
-            backgroundColor: Colors.green,
-          ),
-        );
-      },
-    ).catchError((err) {
-      if (!mounted) return null;
-      ref.read(sendingState.notifier).state = false;
-      return ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Failed'),
-          backgroundColor: Colors.red,
-        ),
-      );
-    });
-  }
+class _DialogBodyState extends State<DialogBody> {
+  double circleRadius = 40;
 
   @override
   Widget build(BuildContext context) {
-    /// This is listening to your state privider
-    /// The koko
-    /// But, for your use case, this will be in the root widget
-    ref.listen(sendingState, (prev, next) {
-      if (next) {
-        /// Show that loading dialog
-        showAdaptiveDialog(
-          /// Since we don't want the barrier to be dissmissable
-          barrierDismissible: false,
-          context: context,
-          builder: (context) => const Dialog(
-            surfaceTintColor: Colors.transparent,
-            backgroundColor: Colors.transparent,
-            child: CircularProgressIndicator.adaptive(),
+    var boxHeight = MediaQuery.sizeOf(context).height * 0.4;
+    return BackdropFilter(
+      filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+      child: Center(
+        child: Container(
+          margin: const EdgeInsets.symmetric(horizontal: 30),
+          //we can set a height of our choice
+          height: boxHeight,
+          child: Stack(
+            children: [
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: FractionallySizedBox(
+                  //90% of the whatever height we choose
+                  heightFactor: 0.9,
+                  child: ClipPath(
+                    clipper: CurvedPath(
+                      circleDiameter: boxHeight * 0.2,
+                    ),
+                    child: Container(
+                      color: const Color.fromRGBO(16, 52, 165, 1),
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.topCenter,
+                child: FractionallySizedBox(
+                  // occupies 20% of that desired height
+                  heightFactor: 0.2,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color.fromRGBO(16, 52, 165, 1),
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
-        );
-      } else {
-        /// Pop the loading modal
-        if (mounted) {
-          /// You can go to another screen if you want, it's your choice
-          Navigator.of(context).pop();
-        }
-      }
-    });
+        ),
+      ),
+    );
+  }
+}
+
+class CurvedPath extends CustomClipper<Path> {
+  final double circleDiameter;
+
+  CurvedPath({required this.circleDiameter});
+
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    double offset = 15;
+    var padding = 22.72;
+    var bottomPad = padding / 3;
+
+    path.moveTo(0, offset);
+    path.lineTo(0, size.height - offset);
+    path.quadraticBezierTo(0, size.height, offset, size.height);
+    path.lineTo(size.width - offset, size.height);
+    path.quadraticBezierTo(
+      size.width,
+      size.height,
+      size.width,
+      size.height - offset,
+    );
+    path.lineTo(size.width, offset);
+    path.quadraticBezierTo(
+      size.width,
+      0,
+      size.width - offset,
+      0,
+    );
+
+    /// Begin of the curve
+
+    path.lineTo((size.width / 2) + 60, 0);
+    path.cubicTo(
+      (size.width / 2) + 35, // you can adjust
+      0,
+      (size.width / 2) + 50, // you can adjust
+      40,
+      size.width / 2,
+      45,
+    );
+    path.cubicTo(
+      (size.width / 2) - 35, // you can adjust
+      45,
+      (size.width / 2) - 45, // you can adjust
+      0,
+      (size.width / 2) - 60,
+      0,
+    );
+
+    /// End of the curve
+
+    path.lineTo(offset, 0);
+    path.quadraticBezierTo(0, 0, 0, offset);
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => true;
+}
+
+Future<T?> showAppDiolog<T>(BuildContext context) async {
+  return showDialog(
+    context: context,
+    builder: (context) => const DialogBody(),
+  );
+}
+
+class SampleScreen extends StatefulWidget {
+  const SampleScreen({super.key});
+
+  @override
+  State<SampleScreen> createState() => _SampleScreenState();
+}
+
+class _SampleScreenState extends State<SampleScreen> {
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Center(
-            child: ElevatedButton(
-              onPressed: makeRequest,
-              child: const Text("send"),
-            ),
-          ),
-        ],
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => showAppDiolog(context),
+          child: const Text('Press'),
+        ),
       ),
     );
   }
