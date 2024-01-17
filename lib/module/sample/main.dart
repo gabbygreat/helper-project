@@ -69,8 +69,6 @@ class CurvedPath extends CustomClipper<Path> {
   Path getClip(Size size) {
     var path = Path();
     double offset = 15;
-    var padding = 22.72;
-    var bottomPad = padding / 3;
 
     path.moveTo(0, offset);
     path.lineTo(0, size.height - offset);
@@ -91,6 +89,8 @@ class CurvedPath extends CustomClipper<Path> {
     );
 
     /// Begin of the curve
+    /// I ignored the use of circleDiameter
+    /// It will be responsive regardless
 
     path.lineTo((size.width / 2) + 60, 0);
     path.cubicTo(
