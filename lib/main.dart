@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:tests/module/animated_video/main.dart';
 import 'package:tests/module/camera_app/main.dart';
 import 'package:tests/module/custom_bottom_nav_bar/main.dart';
+import 'package:tests/module/dark_mode/main.dart';
 import 'package:tests/module/flow/main.dart';
 import 'package:tests/module/food_animation/main.dart';
 import 'package:tests/module/gradient_tab/main.dart';
@@ -42,7 +43,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
 
-  runApp(const ProviderScope(child: MyApp()));
+  runApp(const ProviderScope(child: ThemedApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -83,6 +84,27 @@ class _HelperAppState extends State<HelperApp> {
     );
   }
 
+  Widget items({
+    required String text,
+    required Widget screen,
+  }) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        ListTile(
+          title: Text(text),
+          onTap: () => goToScreen(
+            screen,
+          ),
+          trailing: const Icon(
+            Icons.arrow_forward_ios,
+          ),
+        ),
+        const Divider(),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,336 +113,142 @@ class _HelperAppState extends State<HelperApp> {
       ),
       body: ListView(
         children: [
-          ListTile(
-            title: const Text('Animated Video'),
-            onTap: () => goToScreen(
-              const AnimatedVideo(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const AnimatedVideo(),
+            text: 'Animated Video',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Camera Circle'),
-            onTap: () => goToScreen(
-              const CameraApp(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CameraApp(),
+            text: 'Camera Circle',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Catheral Door'),
-            onTap: () => goToScreen(
-              const CathedralDoor(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CathedralDoor(),
+            text: 'Catheral Door',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Change State'),
-            onTap: () => goToScreen(
-              const ChangeState(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const ChangeState(),
+            text: 'Change State',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Curvy Card'),
-            onTap: () => goToScreen(
-              const CurvyCard(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CurvyCard(),
+            text: 'Curvy Card',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Custom Bottom Nav Bar'),
-            onTap: () => goToScreen(
-              const CustomBottomNavBar(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CustomBottomNavBar(),
+            text: 'Custom Bottom Nav Bar',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Custom Dialog'),
-            onTap: () => goToScreen(
-              const CustomDialog(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CustomDialog(),
+            text: 'Custom Dialog',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Custom Tabbar'),
-            onTap: () => goToScreen(
-              const CustomTabbar(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const CustomTabbar(),
+            text: 'Custom Tabbar',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Flow Example'),
-            onTap: () => goToScreen(
-              const FlowExample(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const ThemedApp(),
+            text: 'Dark Mode',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Food Animation'),
-            onTap: () => goToScreen(
-              const FoodAnimation(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const FlowExample(),
+            text: 'Flow Example',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Glowing Arc'),
-            onTap: () => goToScreen(
-              const GlowingArc(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const FoodAnimation(),
+            text: 'Food Animation',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Glowing Circle'),
-            onTap: () => goToScreen(
-              const GradientCircle(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const GlowingArc(),
+            text: 'Glowing Arc',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Gradient Tab'),
-            onTap: () => goToScreen(
-              const GradientTab(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const GradientCircle(),
+            text: 'Glowing Circle',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('List Selection'),
-            onTap: () => goToScreen(
-              const ListSelection(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const GradientTab(),
+            text: 'Gradient Tab',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Loader Increase'),
-            onTap: () => goToScreen(
-              const LoaderIncrease(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const ListSelection(),
+            text: 'List Selection',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Loop Path'),
-            onTap: () => goToScreen(
-              const LoopPath(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const LoaderIncrease(),
+            text: 'Loader Increase',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Network Screen'),
-            onTap: () => goToScreen(
-              const NetworkScreen(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const LoopPath(),
+            text: 'Loop Path',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Overlap Arc'),
-            onTap: () => goToScreen(
-              const OverlapArc(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const NetworkScreen(),
+            text: 'Network Screen',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Picker Num'),
-            onTap: () => goToScreen(
-              const PickerNum(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const OverlapArc(),
+            text: 'Overlap Arc',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Sample'),
-            onTap: () => goToScreen(
-              const SampleScreen(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const PickerNum(),
+            text: 'Picker Num',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Sharp Curve'),
-            onTap: () => goToScreen(
-              const SharpCurve(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SampleScreen(),
+            text: 'Sample',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Slider Hover'),
-            onTap: () => goToScreen(
-              const SliderHover(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SharpCurve(),
+            text: 'Sharp Curve',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Smart Design'),
-            onTap: () => goToScreen(
-              const SmartDesign(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SliderHover(),
+            text: 'Slider Hover',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Spinner'),
-            onTap: () => goToScreen(
-              const Spinner(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SmartDesign(),
+            text: 'Smart Design',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Spiral Image'),
-            onTap: () => goToScreen(
-              const SpiralImage(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const Spinner(),
+            text: 'Spinner',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Sun Earth Moon'),
-            onTap: () => goToScreen(
-              const SunEarthMoon(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SpiralImage(),
+            text: 'Spiral Image',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Switch Animation'),
-            onTap: () => goToScreen(
-              const SwitchAnimation(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SunEarthMoon(),
+            text: 'Sun Earth Moon',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Text Border'),
-            onTap: () => goToScreen(
-              const SwitchAnimation(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SwitchAnimation(),
+            text: 'Switch Animation',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Ticket Card'),
-            onTap: () => goToScreen(
-              const TicketCard(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const SwitchAnimation(),
+            text: 'Text Border',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Wavy Clip'),
-            onTap: () => goToScreen(
-              const WavyClip(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const TicketCard(),
+            text: 'Ticket Card',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Wrapped Order'),
-            onTap: () => goToScreen(
-              const WrappedOrder(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const WavyClip(),
+            text: 'Wavy Clip',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('Zig Zag'),
-            onTap: () => goToScreen(
-              const ZigZag(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const WrappedOrder(),
+            text: 'Wrapped Order',
           ),
-          const Divider(),
-          ListTile(
-            title: const Text('AnimatedX'),
-            onTap: () => goToScreen(
-              const AnimatedX(),
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-            ),
+          items(
+            screen: const ZigZag(),
+            text: 'Zig Zag',
           ),
-          const Divider(),
+          items(
+            screen: const AnimatedX(),
+            text: 'AnimatedX',
+          ),
         ],
       ),
     );
