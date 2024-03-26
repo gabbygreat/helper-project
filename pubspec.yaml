@@ -48,6 +48,9 @@ dependencies:
   camera: ^0.10.5+5
   http: ^1.1.2
   signals: ^1.4.1
+  audio_waveforms: ^1.0.4
+  file_picker: ^6.1.1
+  path_provider: ^2.1.2
 
 dev_dependencies:
   flutter_test:
@@ -79,6 +82,7 @@ flutter:
     - assets/svg/
     - assets/video/
     - assets/image/
+    - assets/audios/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

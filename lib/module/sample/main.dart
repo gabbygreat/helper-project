@@ -1,86 +1,99 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:signals/signals_flutter.dart';
 
-class SampleScreen extends StatefulWidget {
+final brightness = signal(Brightness.light);
+final themeMode = computed(() {
+  if (brightness() == Brightness.dark) {
+    return ThemeMode.dark;
+  } else {
+    return ThemeMode.light;
+  }
+});
+
+class SampleScreen extends StatelessWidget {
   const SampleScreen({super.key});
 
   @override
-  State<SampleScreen> createState() => _SampleScreenState();
-}
-
-class _SampleScreenState extends State<SampleScreen> {
-  double circleRadius = 40;
-
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            CustomPaint(
-              size: const Size(200, 200),
-              painter: BoxedPaint(),
-            ),
-            20.verticalSpace,
-            ClipPath(
-              clipper: BoxedPath(),
-              child: Container(
-                color: Colors.red,
-                width: 200,
-                height: 200,
-              ),
-            )
-          ],
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+          brightness: Brightness.light,
         ),
+        brightness: Brightness.light,
+        useMaterial3: true,
       ),
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+          brightness: Brightness.dark,
+        ),
+        brightness: Brightness.dark,
+        useMaterial3: true,
+      ),
+      themeMode: themeMode.watch(context),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
-class BoxedPaint extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    var paint = Paint()
-      ..color = Colors.blue
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 5;
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
 
-    double offset = 30;
-
-    var path = Path();
-    path.moveTo(offset, 0);
-    path.lineTo(0, offset);
-    path.lineTo(0, size.height);
-    path.lineTo(size.width, size.height);
-    path.lineTo(size.width, 0);
-    path.close();
-
-    canvas.drawPath(path, paint);
-  }
+  final String title;
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class BoxedPath extends CustomClipper<Path> {
-  @override
-  Path getClip(Size size) {
-    double offset = 30;
+class _MyHomePageState extends State<MyHomePage> {
+  final counter = signal(0);
 
-    var path = Path();
-    path.moveTo(offset, 0);
-    path.lineTo(0, offset);
-    path.lineTo(0, size.height);
-    path.lineTo(size.width, size.height);
-    path.lineTo(size.width, 0);
-    path.close();
-
-    return path;
+  void _incrementCounter() {
+    counter.value++;
   }
 
   @override
-  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => true;
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+        actions: [
+          Watch((_) {
+            final isDark = brightness() == Brightness.dark;
+            return IconButton(
+              onPressed: () {
+                brightness.value = isDark ? Brightness.light : Brightness.dark;
+              },
+              icon: Icon(isDark ? Icons.light_mode : Icons.dark_mode),
+            );
+          }),
+        ],
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Watch((context) {
+              return Text(
+                '$counter',
+                style: Theme.of(context).textTheme.headlineMedium!,
+              );
+            }),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ),
+    );
+  }
 }

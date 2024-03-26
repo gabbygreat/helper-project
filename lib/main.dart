@@ -6,7 +6,7 @@ import 'package:tests/module/animated_video/main.dart';
 import 'package:tests/module/camera_app/main.dart';
 import 'package:tests/module/custom_bottom_nav_bar/main.dart';
 import 'package:tests/module/dark_mode/main.dart';
-import 'package:tests/module/flow/main.dart';
+import 'package:tests/module/voice_recording/main.dart';
 import 'package:tests/module/food_animation/main.dart';
 import 'package:tests/module/gradient_tab/main.dart';
 import 'package:tests/module/network/main.dart';
@@ -43,7 +43,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
 
-  runApp(const ProviderScope(child: ThemedApp()));
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -150,10 +150,6 @@ class _HelperAppState extends State<HelperApp> {
             text: 'Dark Mode',
           ),
           items(
-            screen: const FlowExample(),
-            text: 'Flow Example',
-          ),
-          items(
             screen: const FoodAnimation(),
             text: 'Food Animation',
           ),
@@ -232,6 +228,10 @@ class _HelperAppState extends State<HelperApp> {
           items(
             screen: const TicketCard(),
             text: 'Ticket Card',
+          ),
+          items(
+            screen: const VoiceRecording(),
+            text: 'Voice Recording',
           ),
           items(
             screen: const WavyClip(),

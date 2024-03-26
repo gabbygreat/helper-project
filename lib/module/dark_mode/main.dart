@@ -26,25 +26,20 @@ class _ThemedAppState extends State<ThemedApp> {
     return ValueListenableBuilder(
       valueListenable: isDarkMode,
       builder: (context, isDark, _) {
-        return ScreenUtilInit(
-          designSize: const Size(430.0, 932.0),
-          builder: (context, _) {
-            return MaterialApp(
-              navigatorKey: navigator,
-              themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
-              theme: AppTheme.instance.lightTheme,
-              darkTheme: AppTheme.instance.darkTheme,
-              home: MainApp(isDarkMode: isDarkMode),
-            );
-          },
+        return MaterialApp(
+          navigatorKey: navigator,
+          themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
+          theme: AppTheme.instance.lightTheme,
+          darkTheme: AppTheme.instance.darkTheme,
+          home: MainThemedApp(isDarkMode: isDarkMode),
         );
       },
     );
   }
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({
+class MainThemedApp extends StatelessWidget {
+  const MainThemedApp({
     super.key,
     required this.isDarkMode,
   });
@@ -62,14 +57,8 @@ class MainApp extends StatelessWidget {
             value: isDarkMode.value,
             onChanged: (value) => isDarkMode.value = value,
           ),
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text(
-              'Go back',
-            ),
-          ),
           Text(
-            'BLACK IN LIGHT, RED IN DARK FROM HACKY',
+            'BLACK IN DARK, RED IN LIGHT FROM HACKY',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
